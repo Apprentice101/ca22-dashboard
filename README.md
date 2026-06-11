@@ -32,3 +32,7 @@ Enable GitHub Pages from main branch root in repo settings.
 - 17 sources verified reachable; Votebeat dropped (robots.txt)
 - 6 news cards
 - 3 updates + 1 conflict (initial-build inventory)
+
+## Title fix (2026-06-11 patch)
+- Browser tab `<title>` now reads "CA-22 Voting Procedures Dashboard" (was generic/empty)
+- `client/index.html` and `script/build-static.ts` updated so all future builds get the district title automatically
