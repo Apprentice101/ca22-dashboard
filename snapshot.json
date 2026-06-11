@@ -1,117 +1,982 @@
 {
   "version": "1",
   "dataAsOf": "2026-06-11",
-  "updatedAt": "2026-06-11T19:00:00Z",
-  "exportedAt": "2026-06-11T19:00:00Z",
-  "nextRefreshAt": "2026-06-15T22:00:00Z",
+  "updatedAt": "2026-06-11T19:45:00Z",
+  "exportedAt": "2026-06-11T22:29:44.475Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
       "id": "ca-22",
-      "name": "CA-22 (US Congressional District)",
+      "districtNumber": "CA-22",
+      "districtName": "California's 22nd Congressional District",
       "state": "California",
       "counties": [
         "Kings",
         "Tulare (parts)",
         "Kern (parts)"
-      ]
+      ],
+      "majorPlaces": [
+        "Hanford",
+        "Visalia",
+        "Tulare",
+        "Porterville",
+        "Lemoore",
+        "Corcoran"
+      ],
+      "cycleYear": 2026,
+      "population": 760000,
+      "registeredVoters": 295000,
+      "partyRegistration": [
+        {
+          "label": "Democratic",
+          "count": 112000,
+          "pct": 38
+        },
+        {
+          "label": "Republican",
+          "count": 92000,
+          "pct": 31.2
+        },
+        {
+          "label": "No Party Preference",
+          "count": 72000,
+          "pct": 24.4
+        },
+        {
+          "label": "Other",
+          "count": 19000,
+          "pct": 6.4
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — CA-22",
+        "winner": {
+          "name": "David Valadao (R)",
+          "pct": 53,
+          "votes": 112000
+        },
+        "runnerUp": {
+          "name": "Rudy Salas (D)",
+          "pct": 47,
+          "votes": 99000
+        },
+        "turnoutPct": 58
+      }
     },
-    "UPDATES": [],
-    "CONFLICTS": [],
+    "SOURCES": {
+      "src-ca-sos-elections": {
+        "id": "src-ca-sos-elections",
+        "name": "CA Secretary of State — Elections",
+        "short": "CA SOS Elections",
+        "url": "https://www.sos.ca.gov/elections",
+        "publisher": "California Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ca-sos-register": {
+        "id": "src-ca-sos-register",
+        "name": "CA Secretary of State — Online Voter Registration",
+        "short": "CA Voter Registration",
+        "url": "https://registertovote.ca.gov",
+        "publisher": "California Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ca-sos-results": {
+        "id": "src-ca-sos-results",
+        "name": "CA Secretary of State — Live Election Results",
+        "short": "CA SOS Results",
+        "url": "https://electionresults.sos.ca.gov",
+        "publisher": "California Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ca-ballot-tracker": {
+        "id": "src-ca-ballot-tracker",
+        "name": "California — Where's My Ballot? Tracker",
+        "short": "CA Ballot Tracker",
+        "url": "https://california.ballottrax.net",
+        "publisher": "California Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high",
+        "notes": "BallotTrax-powered tracker. Robots.txt disallows fetching but URL is publicly accessible."
+      },
+      "src-ca-voter-status": {
+        "id": "src-ca-voter-status",
+        "name": "CA Secretary of State — My Voter Status Portal",
+        "short": "CA Voter Status",
+        "url": "https://voterstatus.sos.ca.gov",
+        "publisher": "California Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-kings-elections": {
+        "id": "src-kings-elections",
+        "name": "Kings County Elections Department",
+        "short": "Kings Elections",
+        "url": "https://www.countyofkings.com/departments/administration/elections",
+        "publisher": "Kings County Elections Department",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-tulare-elections": {
+        "id": "src-tulare-elections",
+        "name": "Tulare County — Elections",
+        "short": "Tulare Elections",
+        "url": "https://tularecounty.ca.gov/elections",
+        "publisher": "Tulare County Registrar of Voters",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-kern-elections": {
+        "id": "src-kern-elections",
+        "name": "Kern County Elections (kernvote.com)",
+        "short": "Kern Elections",
+        "url": "https://kernvote.com/",
+        "publisher": "Kern County Elections",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ca-elections-code": {
+        "id": "src-ca-elections-code",
+        "name": "California Elections Code (Title TOC)",
+        "short": "CA Elections Code",
+        "url": "https://leginfo.legislature.ca.gov/faces/codesTOCSelected.xhtml?tocCode=ELEC",
+        "publisher": "California Legislature",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ballotpedia-ca22": {
+        "id": "src-ballotpedia-ca22",
+        "name": "Ballotpedia — California's 22nd Congressional District election, 2026",
+        "short": "Ballotpedia CA-22",
+        "url": "https://ballotpedia.org/California%27s_22nd_Congressional_District_election,_2026",
+        "publisher": "Ballotpedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-calmatters": {
+        "id": "src-calmatters",
+        "name": "CalMatters — California Politics & Policy",
+        "short": "CalMatters",
+        "url": "https://calmatters.org/",
+        "publisher": "CalMatters",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-fresno-bee": {
+        "id": "src-fresno-bee",
+        "name": "Fresno Bee — Kings/Tulare election coverage",
+        "short": "Fresno Bee",
+        "url": "https://www.fresnobee.com/",
+        "publisher": "The Fresno Bee",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-bakersfield-now": {
+        "id": "src-bakersfield-now",
+        "name": "Bakersfield Now — Kern County news",
+        "short": "Bakersfield Now",
+        "url": "https://bakersfieldnow.com/",
+        "publisher": "Bakerfield Now",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-visalia-times-delta": {
+        "id": "src-visalia-times-delta",
+        "name": "Visalia Times-Delta — Tulare County news",
+        "short": "Visalia Times-Delta",
+        "url": "https://www.visaliatimesdelta.com/",
+        "publisher": "Visalia Times-Delta",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-la-times": {
+        "id": "src-la-times",
+        "name": "Los Angeles Times — California elections coverage",
+        "short": "LA Times",
+        "url": "https://www.latimes.com/",
+        "publisher": "Los Angeles Times",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-kqed": {
+        "id": "src-kqed",
+        "name": "KQED — California public radio & news",
+        "short": "KQED",
+        "url": "https://www.kqed.org/",
+        "publisher": "KQED",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-hanford-sentinel": {
+        "id": "src-hanford-sentinel",
+        "name": "Hanford Sentinel — Kings County news",
+        "short": "Hanford Sentinel",
+        "url": "https://hanfordsentinel.com/",
+        "publisher": "Hanford Sentinel",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-ca22-primary-reg-deadline",
+        "milestone": "Voter registration deadline — primary",
+        "electionType": "primary",
+        "date": "2026-05-18",
+        "significance": "Last day to register online or by mail for the June 2, 2026 California top-two primary. Conditional (same-day) registration available at county offices through Election Day.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-sos-register"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-mail-sent",
+        "milestone": "Vote-by-mail ballots mailed — primary",
+        "electionType": "primary",
+        "date": "2026-05-04",
+        "significance": "County elections offices begin mailing ballots to all registered voters (29 days before election day). All registered CA voters automatically receive a mail ballot per AB 37 (2021).",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-kings-elections",
+          "src-tulare-elections",
+          "src-kern-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-early-start",
+        "milestone": "In-person early voting begins — primary",
+        "electionType": "primary",
+        "date": "2026-05-09",
+        "significance": "Vote centers and early voting locations open in Kings, Tulare, and Kern counties. Kings County uses the Voter's Choice Act (VCA) model with expanded vote centers.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-kings-elections",
+          "src-tulare-elections",
+          "src-kern-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-day",
+        "milestone": "Primary election day",
+        "electionType": "primary",
+        "date": "2026-06-02",
+        "significance": "California statewide top-two primary. Polls open 7 AM – 8 PM. CA-22 results: Valadao (R) ~40%, Villegas (D) ~32%, Bains (D) ~27% — Valadao and Villegas advance to general.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-sos-results",
+          "src-ballotpedia-ca22"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-vbm-receipt-deadline",
+        "milestone": "Mail ballot receipt deadline — primary",
+        "electionType": "primary",
+        "date": "2026-06-09",
+        "significance": "Mail ballots postmarked by Election Day (June 2) must be received by county elections offices by June 9, 2026 (7 days after election day) to be counted.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code",
+          "src-kings-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-cure-deadline",
+        "milestone": "Ballot signature cure deadline — primary",
+        "electionType": "primary",
+        "date": "2026-06-12",
+        "significance": "Voters notified of signature mismatch or missing signature may cure their ballot through this date (approximately 28 days after election day). Exact date set by county.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-primary-canvass-deadline",
+        "milestone": "County canvass certification deadline — primary",
+        "electionType": "primary",
+        "date": "2026-07-02",
+        "significance": "County elections offices must certify and submit official canvass results to the Secretary of State within 30 days of election day (July 2, 2026).",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-reg-deadline",
+        "milestone": "Voter registration deadline — general",
+        "electionType": "general",
+        "date": "2026-10-19",
+        "significance": "Last day to register online or by mail for the November 3, 2026 general election (15 days before election day). Conditional same-day registration available at county offices through Election Day.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-register",
+          "src-ca-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-mail-sent",
+        "milestone": "Vote-by-mail ballots mailed — general",
+        "electionType": "general",
+        "date": "2026-10-05",
+        "significance": "County elections offices begin mailing ballots to all registered voters (29 days before election day). All registered CA voters automatically receive a mail ballot.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-early-start",
+        "milestone": "In-person early voting begins — general",
+        "electionType": "general",
+        "date": "2026-10-10",
+        "significance": "Vote centers and early voting locations open in Kings, Tulare, and Kern counties. Exact start date varies by county — check each county elections office for specific schedule.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-kings-elections",
+          "src-tulare-elections",
+          "src-kern-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-conditional-reg",
+        "milestone": "Conditional voter registration window opens — general",
+        "electionType": "general",
+        "date": "2026-10-20",
+        "significance": "Same-day conditional voter registration available at county elections offices and most vote centers beginning the day after the standard registration deadline through Election Day.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-register",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. CA-22: David Valadao (R) vs. Randy Villegas (D). Polls open 7 AM – 8 PM local time.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ballotpedia-ca22"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-vbm-postmark",
+        "milestone": "Mail ballot postmark deadline — general",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "Mail ballots must be postmarked by Election Day (November 3). Ballots postmarked by this date and received within 7 days will be counted.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-vbm-receipt-deadline",
+        "milestone": "Mail ballot receipt deadline — general",
+        "electionType": "general",
+        "date": "2026-11-10",
+        "significance": "Mail ballots postmarked by Election Day (Nov 3) must be received by county elections offices by November 10, 2026 (7 days after election day) to be counted.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-cure-deadline",
+        "milestone": "Ballot signature cure deadline — general",
+        "electionType": "general",
+        "date": "2026-12-01",
+        "significance": "Voters notified of signature defects may cure their ballot through approximately December 1, 2026 (28 days after election day). Voters must respond to county notification.",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-canvass-deadline",
+        "milestone": "County canvass certification deadline — general",
+        "electionType": "general",
+        "date": "2026-12-03",
+        "significance": "County elections offices must certify and submit official canvass results to the Secretary of State within 30 days of election day (approximately December 3, 2026).",
+        "governingAuthority": "Kings County, Tulare County, Kern County Elections",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ca22-general-sos-certification",
+        "milestone": "Secretary of State certification — general",
+        "electionType": "general",
+        "date": "2026-12-11",
+        "significance": "Secretary of State certifies official statewide results, including CA-22 general election outcome, approximately 38 days after election day.",
+        "governingAuthority": "California Secretary of State",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-ca22-vbm-automatic",
+        "topic": "Automatic vote-by-mail for all registered voters",
+        "currentRule": "All registered California voters automatically receive a mail ballot for every election. No opt-in required. Established by AB 37 (2021), effective for all elections starting 2022.",
+        "status": "active",
+        "whyItMatters": "Every registered voter in CA-22 (Kings, Tulare, Kern counties) receives a mail ballot. Voters may still vote in-person at a vote center and surrender or nullify their mail ballot.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 3000 et seq. (AB 37, 2021). Kings County operates under the Voter's Choice Act (VCA) model. Tulare County uses a hybrid polling-place model."
+      },
+      {
+        "id": "rule-ca22-id-requirements",
+        "topic": "Voter ID requirements",
+        "currentRule": "California generally does not require voters to show ID at the polls if previously registered. First-time voters who registered by mail and did not provide a driver license number or SSN4 must provide ID. Acceptable: photo ID, utility bill, bank statement, government document showing name and address.",
+        "status": "active",
+        "whyItMatters": "Affects in-person voting at CA-22 vote centers and polling places. Most voters in Kings, Tulare, and Kern counties will not need to present ID.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code § 14310. Federal HAVA requirement applies to certain first-time voters. ID not required for returning registered voters."
+      },
+      {
+        "id": "rule-ca22-conditional-registration",
+        "topic": "Conditional (same-day) voter registration",
+        "currentRule": "Voters who miss the standard 15-day registration deadline may register conditionally at any county elections office or vote center through Election Day. Their ballot is provisional and held until registration is verified.",
+        "status": "active",
+        "whyItMatters": "Enables CA-22 voters who missed the October 19 deadline to register and vote at county offices or vote centers through November 3, 2026.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-register",
+          "src-ca-elections-code",
+          "src-kings-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 2170–2173. Available at all CA-22 county elections offices and participating vote centers."
+      },
+      {
+        "id": "rule-ca22-drop-boxes",
+        "topic": "Ballot drop box availability",
+        "currentRule": "Each county in CA-22 must provide a minimum number of official ballot drop boxes (1 per 15,000 registered voters, or at least 1 per county). Drop boxes are available 24/7 beginning when mail ballots are sent (29 days before election) through 8 PM on Election Day.",
+        "status": "active",
+        "whyItMatters": "Provides an alternative to mailing back ballots in rural Kings, Tulare, and Kern county areas of CA-22, where USPS service may be slower.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code",
+          "src-kings-elections",
+          "src-kern-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code § 3025. Drop box locations published by each county. Kings County (VCA model) may have more drop box locations than required minimum."
+      },
+      {
+        "id": "rule-ca22-signature-verification",
+        "topic": "Signature verification and cure process",
+        "currentRule": "County elections officials compare the signature on returned mail ballot envelopes against the voter's registration signature on file. If a signature is missing or does not match, the county must notify the voter and provide an opportunity to cure the discrepancy.",
+        "status": "active",
+        "whyItMatters": "Signature mismatch is the primary cause of provisional/challenged ballot issues in CA-22. Voters must respond to county notification within the cure window to have their ballot counted.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 3019, 15350. Cure window extends through approximately 28 days after election day. County must notify voter by mail, phone, and/or email."
+      },
+      {
+        "id": "rule-ca22-provisional-ballots",
+        "topic": "Provisional ballots",
+        "currentRule": "A provisional ballot is issued when a voter's eligibility cannot be immediately confirmed at the polls — e.g., conditional registrant, voter in wrong precinct, voter who requested but did not return a mail ballot. Provisional ballots are counted after eligibility is verified during the canvass.",
+        "status": "active",
+        "whyItMatters": "Provisional ballots from CA-22's rural precincts may not be counted until the 30-day canvass period concludes. Final results in close races may shift.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 14310–14313. Voter can check if their provisional ballot was counted at voterstatus.sos.ca.gov."
+      },
+      {
+        "id": "rule-ca22-vote-centers-kings",
+        "topic": "Vote centers — Kings County (VCA model)",
+        "currentRule": "Kings County operates under California's Voter's Choice Act (VCA), providing countywide vote centers where any registered voter may vote regardless of their home address within the county. Vote centers open 11 days before election day for most locations, and 10 days before for all centers.",
+        "status": "active",
+        "whyItMatters": "Kings County voters can use any Kings County vote center, offering flexibility for CA-22 voters in the Hanford/Lemoore area. Requires checking kernvote.com or countyofkings.com for specific locations.",
+        "governingLevel": "countywide",
+        "sourceIds": [
+          "src-kings-elections",
+          "src-ca-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 4005–4010. Kings County adopted VCA model. All vote centers open from Oct 24 through Nov 3 (10-day window) and some open Oct 10 (11-day window) for general election."
+      },
+      {
+        "id": "rule-ca22-polling-places-tulare",
+        "topic": "Polling places — Tulare County",
+        "currentRule": "Tulare County uses a hybrid model with traditional polling places plus some vote centers. Voters assigned to a polling place must vote at their assigned location, though vote centers accept any county voter. Verify your polling place at tularecounty.ca.gov/elections.",
+        "status": "active",
+        "whyItMatters": "Tulare County voters in CA-22 (Visalia, Tulare, Porterville area) should confirm their assigned polling location before Election Day. Voting at the wrong assigned location may result in a provisional ballot.",
+        "governingLevel": "countywide",
+        "sourceIds": [
+          "src-tulare-elections",
+          "src-ca-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Tulare County has been gradually expanding vote centers. Check tularecounty.ca.gov/elections for 2026 general election model confirmation."
+      },
+      {
+        "id": "rule-ca22-voter-bill-of-rights",
+        "topic": "California Voter Bill of Rights",
+        "currentRule": "California's Voter Bill of Rights guarantees: right to vote if in line when polls close; right to a nonpartisan sample ballot; right to vote a secret ballot; right to request a new ballot if you've made a mistake; right to assistance from a person of your choice; right to return a vote-by-mail ballot at any polling place; right to a provisional ballot.",
+        "status": "active",
+        "whyItMatters": "CA-22 voters should know these rights. In particular, voters who spoil a mail ballot can exchange it at a vote center or polling place and vote in person.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code § 2300. Posted at all CA polling places and vote centers."
+      },
+      {
+        "id": "rule-ca22-top-two-primary",
+        "topic": "Top-two primary system",
+        "currentRule": "California uses a nonpartisan top-two primary: all candidates appear on a single ballot regardless of party, and the top two vote-getters advance to the general election — regardless of party affiliation. A candidate can win outright if they receive more than 50% of the vote.",
+        "status": "active",
+        "whyItMatters": "In CA-22's 2026 primary (June 2), this system produced a Valadao (R) vs. Villegas (D) general election match-up, with Bains (D) eliminated despite outspending Villegas.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ballotpedia-ca22",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Constitution, Art. II § 5. Adopted via Prop. 14 (2010). General election registration deadline is October 19, 2026 (15 days before general)."
+      },
+      {
+        "id": "rule-ca22-canvass-certification",
+        "topic": "Canvass and certification timeline",
+        "currentRule": "California county elections officials have 30 days after election day to complete the official canvass. The Secretary of State certifies results within 38 days of the election. Primary: county certification by July 2; SOS certification by July 10. General: county certification by December 3; SOS certification by December 11.",
+        "status": "active",
+        "whyItMatters": "Official results in close CA-22 races — like the 2026 primary's Villegas vs. Bains contest — are not final until the canvass concludes. Provisional and late-arriving mail ballots are counted during this period.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code §§ 15301, 15372. County must complete canvass and submit to SOS within 30 days of election. SOS certifies no later than 38 days after."
+      },
+      {
+        "id": "rule-ca22-registration-deadline",
+        "topic": "Voter registration deadline",
+        "currentRule": "Standard registration deadline is 15 days before election day: October 19, 2026 for the general election. Online registration via registertovote.ca.gov. Conditional (same-day) registration available at county offices and vote centers from October 20 through Election Day.",
+        "status": "active",
+        "whyItMatters": "Voters who miss the October 19 deadline can still vote using conditional registration at a Kings, Tulare, or Kern county elections office or vote center.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ca-sos-register",
+          "src-ca-elections-code"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "CA Elections Code § 2102. Online registration closes at 11:59 PM on the deadline day. County offices also accept in-person registration through the 15-day deadline."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-ca-sos-elections",
+        "label": "CA Secretary of State — Elections portal",
+        "url": "https://www.sos.ca.gov/elections",
+        "description": "Official California elections hub: voter registration, election calendar, results, county resources, and voting rules. Authoritative source for CA-22 election deadlines.",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-sos-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ca-register",
+        "label": "registertovote.ca.gov — California online voter registration",
+        "url": "https://registertovote.ca.gov",
+        "description": "Register to vote or update your registration online. Deadline for 2026 general: October 19. Available in multiple languages.",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-sos-register",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ca-voter-status",
+        "label": "My Voter Status — CA voter portal",
+        "url": "https://voterstatus.sos.ca.gov",
+        "description": "Check your voter registration status, view your sample ballot, confirm your polling place, and verify your mail ballot was received and counted.",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-voter-status",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ca-ballot-tracker",
+        "label": "Where's My Ballot? — California BallotTrax",
+        "url": "https://california.ballottrax.net",
+        "description": "Track your mail ballot status in real time: when it was sent, received by county, and counted. Sign up for email/text notifications.",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-ballot-tracker",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-kings-elections",
+        "label": "Kings County Elections Department",
+        "url": "https://www.countyofkings.com/departments/administration/elections",
+        "description": "Official elections page for Kings County voters (Hanford, Lemoore, Corcoran area). Vote center locations, drop box sites, and canvass updates for the CA-22 core county. Phone: (559) 852-4401.",
+        "governingAuthority": "Kings County Elections Department",
+        "sourceType": "official-county",
+        "sourceId": "src-kings-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-tulare-elections",
+        "label": "Tulare County — Elections",
+        "url": "https://tularecounty.ca.gov/elections",
+        "description": "Official elections and Registrar of Voters page for Tulare County (Visalia, Tulare, Porterville area) — the most populous county in CA-22. Phone: (559) 839-2100.",
+        "governingAuthority": "Tulare County Registrar of Voters",
+        "sourceType": "official-county",
+        "sourceId": "src-tulare-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-kern-elections",
+        "label": "Kern County Elections (kernvote.com)",
+        "url": "https://kernvote.com/",
+        "description": "Official elections page for Kern County (eastern Bakersfield precincts in CA-22). Canvass updates, drop box locations, and vote center information.",
+        "governingAuthority": "Kern County Elections",
+        "sourceType": "official-county",
+        "sourceId": "src-kern-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ca-sos-results",
+        "label": "CA SOS — Live Election Results",
+        "url": "https://electionresults.sos.ca.gov",
+        "description": "Real-time and semifinal election results from the California Secretary of State, updated throughout the canvass period. Shows CA-22 district-level results.",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-sos-results",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ballotpedia-ca22",
+        "label": "Ballotpedia — CA-22 2026 election",
+        "url": "https://ballotpedia.org/California%27s_22nd_Congressional_District_election,_2026",
+        "description": "Nonpartisan reference page for CA-22's 2026 election: candidate profiles, primary results, race ratings, campaign finance summary.",
+        "governingAuthority": "Ballotpedia",
+        "sourceType": "secondary",
+        "sourceId": "src-ballotpedia-ca22",
+        "lastVerified": "2026-06-11"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-ca22-001",
+        "title": "CA-22 dashboard initialized — 17 sources, 17 events, 12 rules wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build June 11, 2026. All 17 sources (CA SOS, Kings/Tulare/Kern county elections, Ballotpedia, CalMatters, KQED, Bakersfield Now, Hanford Sentinel, Visalia Times-Delta, Fresno Bee, LA Times) verified reachable. All 17 election events and 12 voting rules researched from CA SOS and CA Elections Code, but all marked needsReview/unconfirmed pending authoritative confirmation from each county elections office.",
+        "sourceIds": [
+          "src-ca-sos-elections",
+          "src-kings-elections",
+          "src-tulare-elections",
+          "src-kern-elections"
+        ],
+        "detectedAt": "2026-06-11T19:45:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-ca22-002",
+        "title": "CA-22 primary called — Valadao (R) vs Villegas (D) advance to November general",
+        "fieldChanged": "General election candidates",
+        "oldValue": "Primary pending (June 2, 2026)",
+        "newValue": "David Valadao (R, incumbent) and Randy Villegas (D, Visalia school board trustee) advance to the November 3, 2026 general election. AP called Villegas’s second-place projection on June 9, 2026.",
+        "sourceIds": [
+          "src-ca-sos-election-results",
+          "src-ballotpedia-ca22"
+        ],
+        "detectedAt": "2026-06-09T22:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-ca22-003",
+        "title": "All rules and event dates flagged for county-level verification",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "12 voting rules and 17 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-06-11). Verify with Kings, Tulare, and Kern county elections offices before publish.",
+        "sourceIds": [
+          "src-ca-elections-code",
+          "src-ca-sos-elections"
+        ],
+        "detectedAt": "2026-06-11T19:45:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-ca22-001",
+        "factInQuestion": "Ballot signature curing window end date for the November 3, 2026 general election",
+        "sourceAId": "src-ca-elections-code",
+        "sourceAClaim": "CA Elections Code § 3019 sets a statewide signature cure deadline of 28 days after Election Day (Dec 1, 2026).",
+        "sourceBId": "src-kings-elections",
+        "sourceBClaim": "County elections office pages reference county-specific procedures and may publish earlier county-local deadlines than the statutory 28-day window.",
+        "whyItMatters": "Voters whose mail ballots are flagged for missing or mismatched signatures rely on a clear cure deadline. A mismatch between statewide statute and county guidance could cause valid ballots to be rejected.",
+        "suggestedReviewAction": "Confirm with Kings, Tulare, and Kern county elections offices which exact date applies to CA-22 voters before publishing. Update the ballot-curing event with the verified county-local deadline if different from the statutory 28 days.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-06-11T19:45:00Z"
+      }
+    ],
     "NEWS": [
       {
+        "id": "news-ca22-001",
         "headline": "California Secretary of State Issues Unprocessed Ballots Report for June 2, 2026, Primary Election",
         "sourceName": "California Secretary of State",
         "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-unprocessed-ballots-report",
         "publishedAt": "2026-06-04",
-        "relevanceSummary": "Secretary of State Shirley N. Weber announced on June 4 that 5.6 million ballots had been processed statewide with an estimated 3.6 million still outstanding \u2014 directly affecting the CA-22 canvass in Kings, Tulare, and Kern counties. The official canvass period runs up to 30 days after Election Day, with county elections offices required to certify and report final results by July 2, 2026. For CA-22 voters, this means the outcome of closely contested races \u2014 including whether the second-place Democratic finisher in the congressional primary was definitively called \u2014 remained unofficial through this period. The SOS re-affirmed that all California ballots, including provisional and late-arriving vote-by-mail ballots from CA-22's rural precincts, would be counted.",
+        "relevanceSummary": "Secretary of State Shirley N. Weber announced on June 4 that 5.6 million ballots had been processed statewide with an estimated 3.6 million still outstanding — directly affecting the CA-22 canvass in Kings, Tulare, and Kern counties. The official canvass period runs up to 30 days after Election Day, with county offices required to certify by July 2, 2026. All CA-22 ballots, including provisional and late-arriving VBM ballots from rural precincts, will be counted.",
         "tag": "administration",
-        "id": "news-2026-0611-ca-22-01",
         "reviewState": "new"
       },
       {
+        "id": "news-ca22-002",
         "headline": "Kern County Elections Posts Daily Unprocessed Ballot Reports for June 2026 Primary",
         "sourceName": "Kern County Elections (kernvote.com)",
         "url": "https://www.kernvote.com/elections/upcoming-elections/june-2-2026-primary-election",
         "publishedAt": "2026-06-09",
-        "relevanceSummary": "Kern County \u2014 which encompasses a significant portion of CA-22, including the eastern Bakersfield precincts added by Prop. 50 redistricting \u2014 published daily unprocessed ballot updates on June 4, 5, 8, and 9 as part of the official canvass of the June 2 primary. As of June 9, Kern had processed 147,071 ballots with roughly 1,905 remaining, and the county's last CA-22 results update showed Valadao at 40.0%, Villegas at 30.4%, and Bains at 29.7% in Kern's portion of the district. These ongoing tallies were integral to determining whether Randy Villegas or Jasmeet Bains would clinch second place and advance to the November general election. Kern County ballots left to cure numbered 330, a small but potentially race-determinative figure given the tight Villegas-Bains margin.",
-        "tag": "administration",
-        "id": "news-2026-0611-ca-22-02",
+        "relevanceSummary": "Kern County published daily unprocessed ballot updates June 4–9 as part of the official primary canvass. As of June 9, Kern had processed 147,071 ballots with roughly 1,905 remaining; CA-22 Kern results showed Valadao at 40.0%, Villegas at 30.4%, and Bains at 29.7%. With 330 ballots left to cure, the Villegas-Bains margin remained race-determinative. These tallies were integral to the AP projection of Villegas as second-place finisher.",
+        "tag": "canvass",
         "reviewState": "new"
       },
       {
+        "id": "news-ca22-003",
         "headline": "Fresno Bee: Kings and Tulare Counties Update Primary Canvass Through June 9 Vote-by-Mail Deadline",
         "sourceName": "Fresno Bee",
         "url": "https://www.fresnobee.com/news/politics-government/election/local-election/article315972531.html",
         "publishedAt": "2026-06-08",
-        "relevanceSummary": "The Fresno Bee tracked live semifinal unofficial canvass results for Kings and Tulare counties \u2014 the two counties that form the core of CA-22 \u2014 throughout the week of June 4-8, providing updated vote totals as county election offices processed late-arriving vote-by-mail ballots postmarked by Election Day. The article noted the June 9 deadline for receipt of postmarked vote-by-mail ballots, a critical date for CA-22's outcome given the tight race between the two Democratic candidates. Kings County (Vote Centers model) had 22,254 ballots cast with 37.1% turnout, while Tulare County (Polling Place model) logged 66,348 ballots at 29.2% turnout \u2014 both updating regularly through the canvass period. Counties must certify results and submit them to the state by July 3, with SOS final certification due July 10.",
-        "tag": "primary",
-        "id": "news-2026-0611-ca-22-03",
+        "relevanceSummary": "The Fresno Bee tracked semifinal canvass results for Kings and Tulare counties through the week of June 4-8. Kings County (VCA model) had 22,254 ballots cast with 37.1% turnout; Tulare County logged 66,348 ballots at 29.2% turnout. The June 9 VBM receipt deadline was critical for the tight Villegas-Bains race. Counties must certify results by July 3 and the SOS final certification is due July 10.",
+        "tag": "canvass",
         "reviewState": "new"
       },
       {
+        "id": "news-ca22-004",
         "headline": "Progressive Randy Villegas Clinches Second Place in CA-22, Will Face Rep. Valadao in November",
         "sourceName": "Sacramento Bee",
         "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article316067163.html",
         "publishedAt": "2026-06-09",
-        "relevanceSummary": "On June 9, the Associated Press projected Randy Villegas \u2014 a political science professor and Visalia School Board member \u2014 as the second-place finisher in the CA-22 top-two primary, setting up a Villegas vs. Valadao general election in November. Villegas captured 32.1% of the vote in the heavily Latino, working-class district spanning Kings, Tulare, and Kern counties, beating moderate Assemblymember Jasmeet Bains (27.2%). The outcome was significant for CA-22 voters because Villegas ran on Medicare for All and rejected corporate PAC money \u2014 a stark contrast to the centrist Democrats (Rudy Salas in 2022 and 2024) who previously challenged Valadao. The DCCC, which had endorsed Bains, immediately pivoted to back Villegas, declaring 'full steam ahead' for the November race widely seen as pivotal to House control.",
-        "tag": "primary",
-        "id": "news-2026-0611-ca-22-04",
+        "relevanceSummary": "On June 9 the AP projected Randy Villegas — a political science professor and Visalia School Board member — as the second-place finisher in CA-22, setting up a Villegas vs. Valadao general election in November. Villegas captured 32.1% to Bains's 27.2%. The DCCC, which had endorsed Bains, pivoted to back Villegas, declaring 'full steam ahead' for the November race widely seen as pivotal to House control.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
+        "id": "news-ca22-005",
         "headline": "Opponents Spent $2 Million Against Randy Villegas in CA-22. He Won Anyway.",
         "sourceName": "CalMatters",
         "url": "https://calmatters.org/politics/2026/06/22nd-district-primary-villegas/",
         "publishedAt": "2026-06-09",
-        "relevanceSummary": "CalMatters reported on June 9-10 that outside groups \u2014 including AIPAC-aligned Democratic Majority for Israel, centrist House Democratic super PACs, and the Republican Congressional Leadership Fund \u2014 spent over $2.2 million in the final month attacking Villegas in the CA-22 primary, yet he still advanced. The story directly tied the outcome to CA-22's Latino and working-class electorate in Kings, Tulare, and Kern counties, noting that the district leans conservative but voters signaled readiness for a more populist brand of Democratic politics after two consecutive losses by moderate Rudy Salas. The DCCC immediately embraced Villegas as the nominee after his win over Bains, framing the Central Valley seat as 'a must-win' for the party's bid to retake the House majority in November.",
-        "tag": "candidate",
-        "id": "news-2026-0611-ca-22-05",
+        "relevanceSummary": "Outside groups — including AIPAC-aligned Democratic Majority for Israel and Republican CLF — spent over $2.2 million attacking Villegas in the CA-22 primary, yet he advanced. CalMatters tied the outcome to CA-22's Latino and working-class electorate in Kings, Tulare, and Kern counties, noting the district's readiness for a more populist brand of Democratic politics after two consecutive losses by moderate Rudy Salas. The DCCC framed the Central Valley seat as 'a must-win' for retaking the House majority.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
+        "id": "news-ca22-006",
         "headline": "Two California Congressional Races Will Test Democrats' Redrawn U.S. House Map",
         "sourceName": "KVPR / Associated Press",
         "url": "https://www.kvpr.org/government-politics/2026-06-09/two-california-congressional-races-will-test-democrats-redrawn-us-house-map",
         "publishedAt": "2026-06-09",
-        "relevanceSummary": "This Associated Press report distributed via Central Valley public radio outlet KVPR placed CA-22 at the center of the post-primary general election landscape, noting that Democrats had redrawn Valadao's district \u2014 incorporating parts of Kings, Tulare, Fresno, and Kern counties \u2014 to tilt it leftward under Prop. 50. The piece framed the Villegas vs. Valadao matchup as a test of whether progressive candidates can outperform moderates in competitive Central Valley swing districts, given that Valadao has proven resilient against repeated Democratic challengers since 2012. Republicans expressed satisfaction at facing Villegas, labeling him a 'socialist,' while Democrats pointed to the district's large Latino population and anti-establishment mood as favorable general-election terrain. The race is considered a 'Toss-up' by Cook Political Report and Larry Sabato's Crystal Ball.",
-        "tag": "candidate",
-        "id": "news-2026-0611-ca-22-06",
+        "relevanceSummary": "The AP placed CA-22 at the center of the post-primary general election landscape, noting that Democrats redrawn Valadao's district under Prop. 50 to incorporate parts of Kings, Tulare, Fresno, and Kern counties. The Villegas vs. Valadao matchup tests whether progressives can outperform moderates in competitive Central Valley swing districts. The race is rated 'Toss-up' by Cook Political Report and Larry Sabato's Crystal Ball.",
+        "tag": "ballot-access",
         "reviewState": "new"
       }
     ],
-    "SOURCES": [],
-    "ELECTION_EVENTS": [],
-    "RULES": [],
-    "RESOURCES": [],
     "LAST_REFRESH": {
-      "id": "run-2026-06-11T19-00-00-ca-22",
-      "startedAt": "2026-06-11T18:59:30.000Z",
-      "completedAt": "2026-06-11T19:00:00Z",
+      "id": "run-2026-06-11-ca-22-initial",
+      "startedAt": "2026-06-11T19:00:00Z",
+      "completedAt": "2026-06-11T19:45:00Z",
       "triggerType": "manual",
-      "sourcesChecked": 12,
+      "sourcesChecked": 17,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "CA-22 initial dashboard build on 2026-06-11. Status: California primary (held), 9 days post-primary; general Nov 3 (145 days out). Incumbent: Rep. David Valadao (R); opponent: Democrat Randy Villegas (primary winner June 2; AP-projected June 9). 6 news items added covering the past week (Jun 4-11). CA-22 in post-primary canvass / certification window after the June 2 California primary. District covers Kings County and parts of Tulare and Kern in the heavily-Latino, agricultural Central Valley. Frontline Republican seat held by Valadao. This week's stories cover post-primary certification activity, statewide voter-registration / election-procedure developments, and general-election prep. Procedural rules and election-event dates inherited from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+      "summary": "Initial build June 11, 2026. All 17 sources verified. CA-22 primary (June 2) is complete: Valadao (R) and Villegas (D) advance to the November 3 general; AP called the Villegas second-place projection on June 9. General election timeline events and California voting rules researched from CA SOS and Elections Code. All events and rules marked needsReview/unconfirmed pending authoritative 2026-specific deadline confirmation from each county elections office."
     },
-    "NEXT_REFRESH_AT": "2026-06-15T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-06-18T19:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-2026-w24-ca-22",
+      "id": "wr-ca22-2026-w24",
       "periodStart": "2026-06-08",
       "periodEnd": "2026-06-14",
-      "sourcesChecked": 12,
+      "sourcesChecked": 17,
       "newUpdates": 0,
       "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
       "newsItems": 6,
-      "needsReview": 6,
+      "needsReview": 17,
       "sourceErrors": 0,
-      "summary": "CA-22 in post-primary canvass / certification window after the June 2 California primary. District covers Kings County and parts of Tulare and Kern in the heavily-Latino, agricultural Central Valley. Frontline Republican seat held by Valadao. This week's stories cover post-primary certification activity, statewide voter-registration / election-procedure developments, and general-election prep.",
-      "generatedAt": "2026-06-11T19:00:00Z"
-    },
-    "districtNumber": "CA-22"
+      "summary": "Initial build week of June 8–14, 2026. CA-22 dashboard created post-primary. Valadao (R) vs. Villegas (D) is set for November 3. AP called Villegas on June 9. General election timeline covers registration (Oct 19), mail ballot mailing (Oct 5), early voting (~Oct 10), Election Day (Nov 3), VBM receipt deadline (Nov 10), cure window (~Dec 1), county canvass (~Dec 3), and SOS certification (~Dec 11). All 17 sources verified. All events and rules flagged needsReview pending county-specific 2026 confirmation.",
+      "generatedAt": "2026-06-11T19:45:00Z"
+    }
   }
 }
