@@ -1,0 +1,117 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-11",
+  "updatedAt": "2026-06-11T19:00:00Z",
+  "exportedAt": "2026-06-11T19:00:00Z",
+  "nextRefreshAt": "2026-06-15T22:00:00Z",
+  "districtCode": "CA-22",
+  "data": {
+    "DISTRICT": {
+      "id": "ca-22",
+      "name": "CA-22 (US Congressional District)",
+      "state": "California",
+      "counties": [
+        "Kings",
+        "Tulare (parts)",
+        "Kern (parts)"
+      ]
+    },
+    "UPDATES": [],
+    "CONFLICTS": [],
+    "NEWS": [
+      {
+        "headline": "California Secretary of State Issues Unprocessed Ballots Report for June 2, 2026, Primary Election",
+        "sourceName": "California Secretary of State",
+        "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-unprocessed-ballots-report",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "Secretary of State Shirley N. Weber announced on June 4 that 5.6 million ballots had been processed statewide with an estimated 3.6 million still outstanding \u2014 directly affecting the CA-22 canvass in Kings, Tulare, and Kern counties. The official canvass period runs up to 30 days after Election Day, with county elections offices required to certify and report final results by July 2, 2026. For CA-22 voters, this means the outcome of closely contested races \u2014 including whether the second-place Democratic finisher in the congressional primary was definitively called \u2014 remained unofficial through this period. The SOS re-affirmed that all California ballots, including provisional and late-arriving vote-by-mail ballots from CA-22's rural precincts, would be counted.",
+        "tag": "administration",
+        "id": "news-2026-0611-ca-22-01",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Kern County Elections Posts Daily Unprocessed Ballot Reports for June 2026 Primary",
+        "sourceName": "Kern County Elections (kernvote.com)",
+        "url": "https://www.kernvote.com/elections/upcoming-elections/june-2-2026-primary-election",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "Kern County \u2014 which encompasses a significant portion of CA-22, including the eastern Bakersfield precincts added by Prop. 50 redistricting \u2014 published daily unprocessed ballot updates on June 4, 5, 8, and 9 as part of the official canvass of the June 2 primary. As of June 9, Kern had processed 147,071 ballots with roughly 1,905 remaining, and the county's last CA-22 results update showed Valadao at 40.0%, Villegas at 30.4%, and Bains at 29.7% in Kern's portion of the district. These ongoing tallies were integral to determining whether Randy Villegas or Jasmeet Bains would clinch second place and advance to the November general election. Kern County ballots left to cure numbered 330, a small but potentially race-determinative figure given the tight Villegas-Bains margin.",
+        "tag": "administration",
+        "id": "news-2026-0611-ca-22-02",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Fresno Bee: Kings and Tulare Counties Update Primary Canvass Through June 9 Vote-by-Mail Deadline",
+        "sourceName": "Fresno Bee",
+        "url": "https://www.fresnobee.com/news/politics-government/election/local-election/article315972531.html",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "The Fresno Bee tracked live semifinal unofficial canvass results for Kings and Tulare counties \u2014 the two counties that form the core of CA-22 \u2014 throughout the week of June 4-8, providing updated vote totals as county election offices processed late-arriving vote-by-mail ballots postmarked by Election Day. The article noted the June 9 deadline for receipt of postmarked vote-by-mail ballots, a critical date for CA-22's outcome given the tight race between the two Democratic candidates. Kings County (Vote Centers model) had 22,254 ballots cast with 37.1% turnout, while Tulare County (Polling Place model) logged 66,348 ballots at 29.2% turnout \u2014 both updating regularly through the canvass period. Counties must certify results and submit them to the state by July 3, with SOS final certification due July 10.",
+        "tag": "primary",
+        "id": "news-2026-0611-ca-22-03",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Progressive Randy Villegas Clinches Second Place in CA-22, Will Face Rep. Valadao in November",
+        "sourceName": "Sacramento Bee",
+        "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article316067163.html",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "On June 9, the Associated Press projected Randy Villegas \u2014 a political science professor and Visalia School Board member \u2014 as the second-place finisher in the CA-22 top-two primary, setting up a Villegas vs. Valadao general election in November. Villegas captured 32.1% of the vote in the heavily Latino, working-class district spanning Kings, Tulare, and Kern counties, beating moderate Assemblymember Jasmeet Bains (27.2%). The outcome was significant for CA-22 voters because Villegas ran on Medicare for All and rejected corporate PAC money \u2014 a stark contrast to the centrist Democrats (Rudy Salas in 2022 and 2024) who previously challenged Valadao. The DCCC, which had endorsed Bains, immediately pivoted to back Villegas, declaring 'full steam ahead' for the November race widely seen as pivotal to House control.",
+        "tag": "primary",
+        "id": "news-2026-0611-ca-22-04",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Opponents Spent $2 Million Against Randy Villegas in CA-22. He Won Anyway.",
+        "sourceName": "CalMatters",
+        "url": "https://calmatters.org/politics/2026/06/22nd-district-primary-villegas/",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "CalMatters reported on June 9-10 that outside groups \u2014 including AIPAC-aligned Democratic Majority for Israel, centrist House Democratic super PACs, and the Republican Congressional Leadership Fund \u2014 spent over $2.2 million in the final month attacking Villegas in the CA-22 primary, yet he still advanced. The story directly tied the outcome to CA-22's Latino and working-class electorate in Kings, Tulare, and Kern counties, noting that the district leans conservative but voters signaled readiness for a more populist brand of Democratic politics after two consecutive losses by moderate Rudy Salas. The DCCC immediately embraced Villegas as the nominee after his win over Bains, framing the Central Valley seat as 'a must-win' for the party's bid to retake the House majority in November.",
+        "tag": "candidate",
+        "id": "news-2026-0611-ca-22-05",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Two California Congressional Races Will Test Democrats' Redrawn U.S. House Map",
+        "sourceName": "KVPR / Associated Press",
+        "url": "https://www.kvpr.org/government-politics/2026-06-09/two-california-congressional-races-will-test-democrats-redrawn-us-house-map",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "This Associated Press report distributed via Central Valley public radio outlet KVPR placed CA-22 at the center of the post-primary general election landscape, noting that Democrats had redrawn Valadao's district \u2014 incorporating parts of Kings, Tulare, Fresno, and Kern counties \u2014 to tilt it leftward under Prop. 50. The piece framed the Villegas vs. Valadao matchup as a test of whether progressive candidates can outperform moderates in competitive Central Valley swing districts, given that Valadao has proven resilient against repeated Democratic challengers since 2012. Republicans expressed satisfaction at facing Villegas, labeling him a 'socialist,' while Democrats pointed to the district's large Latino population and anti-establishment mood as favorable general-election terrain. The race is considered a 'Toss-up' by Cook Political Report and Larry Sabato's Crystal Ball.",
+        "tag": "candidate",
+        "id": "news-2026-0611-ca-22-06",
+        "reviewState": "new"
+      }
+    ],
+    "SOURCES": [],
+    "ELECTION_EVENTS": [],
+    "RULES": [],
+    "RESOURCES": [],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-11T19-00-00-ca-22",
+      "startedAt": "2026-06-11T18:59:30.000Z",
+      "completedAt": "2026-06-11T19:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 12,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "CA-22 initial dashboard build on 2026-06-11. Status: California primary (held), 9 days post-primary; general Nov 3 (145 days out). Incumbent: Rep. David Valadao (R); opponent: Democrat Randy Villegas (primary winner June 2; AP-projected June 9). 6 news items added covering the past week (Jun 4-11). CA-22 in post-primary canvass / certification window after the June 2 California primary. District covers Kings County and parts of Tulare and Kern in the heavily-Latino, agricultural Central Valley. Frontline Republican seat held by Valadao. This week's stories cover post-primary certification activity, statewide voter-registration / election-procedure developments, and general-election prep. Procedural rules and election-event dates inherited from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+    },
+    "NEXT_REFRESH_AT": "2026-06-15T22:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-2026-w24-ca-22",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 12,
+      "newUpdates": 0,
+      "conflictsCreated": 0,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 6,
+      "sourceErrors": 0,
+      "summary": "CA-22 in post-primary canvass / certification window after the June 2 California primary. District covers Kings County and parts of Tulare and Kern in the heavily-Latino, agricultural Central Valley. Frontline Republican seat held by Valadao. This week's stories cover post-primary certification activity, statewide voter-registration / election-procedure developments, and general-election prep.",
+      "generatedAt": "2026-06-11T19:00:00Z"
+    },
+    "districtNumber": "CA-22"
+  }
+}
