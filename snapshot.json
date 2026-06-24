@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-11",
-  "updatedAt": "2026-06-11T19:45:00Z",
-  "exportedAt": "2026-06-15T19:42:20.763Z",
+  "dataAsOf": "2026-06-24",
+  "updatedAt": "2026-06-24T20:00:00Z",
+  "exportedAt": "2026-06-24T20:34:18.860Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -11,58 +11,30 @@
       "districtName": "California's 22nd Congressional District",
       "state": "California",
       "counties": [
-        "Kings",
+        "Kern (parts)",
         "Tulare (parts)",
-        "Kern (parts)"
+        "Kings (parts)",
+        "Fresno (parts — southwest ag belt)"
       ],
       "majorPlaces": [
+        "Bakersfield",
         "Hanford",
-        "Visalia",
         "Tulare",
         "Porterville",
-        "Lemoore",
-        "Corcoran"
+        "Delano",
+        "Wasco",
+        "Shafter",
+        "Corcoran",
+        "McFarland",
+        "Lindsay"
       ],
       "cycleYear": 2026,
-      "population": 760000,
-      "registeredVoters": 295000,
-      "partyRegistration": [
-        {
-          "label": "Democratic",
-          "count": 112000,
-          "pct": 38
-        },
-        {
-          "label": "Republican",
-          "count": 92000,
-          "pct": 31.2
-        },
-        {
-          "label": "No Party Preference",
-          "count": 72000,
-          "pct": 24.4
-        },
-        {
-          "label": "Other",
-          "count": 19000,
-          "pct": 6.4
-        }
-      ],
-      "previousResult": {
-        "year": 2024,
-        "seat": "U.S. House — CA-22",
-        "winner": {
-          "name": "David Valadao (R)",
-          "pct": 53,
-          "votes": 112000
-        },
-        "runnerUp": {
-          "name": "Rudy Salas (D)",
-          "pct": 47,
-          "votes": 99000
-        },
-        "turnoutPct": 58
-      }
+      "population": 760066,
+      "registeredVoters": null,
+      "partyRegistration": null,
+      "previousResult": null,
+      "boundaryConfidence": "high",
+      "electorateConfidence": "unconfirmed"
     },
     "SOURCES": {
       "src-ca-sos-elections": {
@@ -269,6 +241,19 @@
         "dateAccessed": "2026-06-11",
         "lastVerified": "2026-06-11",
         "confidence": "high"
+      },
+      "src-ca-ab604-assembly": {
+        "id": "src-ca-ab604-assembly",
+        "name": "CA Assembly Elections & Redistricting — Proposed Congressional Map (AB 604 / Prop. 50)",
+        "short": "CA AB 604 Map",
+        "url": "https://aelc.assembly.ca.gov/proposed-congressional-map",
+        "publisher": "California State Assembly — Elections & Redistricting Committee",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-24",
+        "lastVerified": "2026-06-24",
+        "confidence": "high",
+        "notes": "Authoritative boundary file for the AB 604 / Prop. 50 redrawn congressional map effective January 2026. Shapefile parsed for CA-22: A_POP 760,066, DEVIATION 0, CVAP 52.5%, HSP 65.4%."
       }
     },
     "ELECTION_EVENTS": [
@@ -871,6 +856,20 @@
         "severity": "medium",
         "reviewState": "new",
         "visibility": "internal_only"
+      },
+      {
+        "id": "upd-ca22-004",
+        "title": "CA-22 boundaries redrawn under AB 604 (Prop. 50) — effective January 2026",
+        "fieldChanged": "District boundaries, counties, major places",
+        "oldValue": "Counties: Kings (entire), Tulare (parts), Kern (parts). Major places: Hanford, Visalia, Tulare, Porterville, Lemoore, Corcoran.",
+        "newValue": "Counties: Kern (parts incl. Bakersfield, Delano, Wasco, Shafter, McFarland, Arvin, Lamont), Tulare (parts incl. Tulare, Porterville, Pixley, Earlimart, Tipton, Lindsay), Kings (parts incl. Hanford, Corcoran, Kettleman City, Stratford), Fresno (parts — southwest ag belt incl. Huron, Riverdale, Caruthers). Major places: Bakersfield, Hanford, Tulare, Porterville, Delano, Wasco, Shafter, Corcoran, McFarland, Lindsay. Visalia, Lemoore, Exeter, Farmersville and California City are no longer in CA-22. Note: contrary to early press accounts, Coalinga, Avenal, Mendota and Firebaugh are NOT in the new CA-22 — verified against the AB 604 shapefile. A_POP 760,066, DEVIATION 0. CVAP demographics from AB 604 shapefile: HSP 65.4%, WHT 22.3%, BLK 5.8%, ASN 5.0%, IND 0.9%; CVAP_PCT 52.5%. The June 2, 2026 primary was already conducted under these new lines.",
+        "sourceIds": [
+          "src-ca-ab604-assembly"
+        ],
+        "detectedAt": "2026-06-24T20:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
       }
     ],
     "CONFLICTS": [
@@ -886,6 +885,19 @@
         "severity": "medium",
         "status": "unresolved",
         "createdAt": "2026-06-11T19:45:00Z"
+      },
+      {
+        "id": "conf-ca22-002",
+        "factInQuestion": "Registered-voter count, party-registration breakdown, and 2024 previous result for CA-22 under AB 604 (Prop. 50) boundaries",
+        "sourceAId": "src-ca-ab604-assembly",
+        "sourceAClaim": "AB 604 redraws CA-22 effective January 2026: counties shift to Kern/Tulare/Kings/Fresno (all partial), anchored by Bakersfield rather than Hanford/Visalia. Population 760,066; CVAP 52.5%; 65.4% Hispanic CVAP.",
+        "sourceBId": "src-ca-sos-elections",
+        "sourceBClaim": "Prior CA-22 registration totals (≈295,000 registered voters; Dem 38.0%, Rep 31.2%, NPP 24.4%, Other 6.4%) and the 2024 Valadao-vs-Salas result (53%–47%) were computed under the OLD pre-AB-604 boundaries (Kings entire + parts of Tulare and Kern) and do not match the new district footprint.",
+        "whyItMatters": "Dashboard fields for registeredVoters, partyRegistration, and previousResult are now boundary-stale. Displaying them as-is would misrepresent the new CA-22 electorate (which now includes Bakersfield and western Fresno County and excludes Visalia and Lemoore). Pending CA SOS publication of a new precinct-to-CD crosswalk under the AB 604 lines, these fields are nulled and flagged unconfirmed.",
+        "suggestedReviewAction": "Once CA SOS publishes voter-registration totals broken out by the AB 604 CA-22 boundary (or a precinct crosswalk allowing recomputation), restore registeredVoters, partyRegistration, and previousResult with sourceIds and lastVerified set to that publication. Until then, treat as unconfirmed.",
+        "severity": "high",
+        "status": "unresolved",
+        "createdAt": "2026-06-24T20:00:00Z"
       }
     ],
     "NEWS": [
@@ -951,32 +963,32 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-11-ca-22-initial",
-      "startedAt": "2026-06-11T19:00:00Z",
-      "completedAt": "2026-06-11T19:45:00Z",
+      "id": "run-2026-06-24-ca-22-ab604",
+      "startedAt": "2026-06-24T19:30:00Z",
+      "completedAt": "2026-06-24T20:00:00Z",
       "triggerType": "manual",
-      "sourcesChecked": 17,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "sourcesChecked": 18,
+      "updatesCreated": 1,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Initial build June 11, 2026. All 17 sources verified. CA-22 primary (June 2) is complete: Valadao (R) and Villegas (D) advance to the November 3 general; AP called the Villegas second-place projection on June 9. General election timeline events and California voting rules researched from CA SOS and Elections Code. All events and rules marked needsReview/unconfirmed pending authoritative 2026-specific deadline confirmation from each county elections office."
+      "summary": "AB 604 (Prop. 50) boundary update: CA-22 redrawn effective January 2026. Parsed authoritative AB 604 shapefile (record index 33, DISTRICT='22', A_POP 760,066, DEVIATION 0). New CA-22 spans parts of Kern (incl. Bakersfield), Tulare, Kings, and western Fresno counties; Visalia and Lemoore no longer in district. Updated DISTRICT.counties, DISTRICT.majorPlaces, DISTRICT.population, and the boundary polygon in DistrictMapTile. Registered-voter count, party-registration breakdown, and 2024 previous result nulled and marked unconfirmed (conf-ca22-002) pending CA SOS publication of voter-registration totals under the new boundary. June 2 primary results (Valadao-Villegas) were already conducted under these new lines and remain valid."
     },
-    "NEXT_REFRESH_AT": "2026-06-18T19:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-01T19:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-ca22-2026-w24",
-      "periodStart": "2026-06-08",
-      "periodEnd": "2026-06-14",
-      "sourcesChecked": 17,
-      "newUpdates": 0,
-      "conflictsCreated": 0,
+      "id": "wr-ca22-2026-w26",
+      "periodStart": "2026-06-22",
+      "periodEnd": "2026-06-28",
+      "sourcesChecked": 18,
+      "newUpdates": 1,
+      "conflictsCreated": 1,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
       "newsItems": 6,
-      "needsReview": 17,
+      "needsReview": 18,
       "sourceErrors": 0,
-      "summary": "Initial build week of June 8–14, 2026. CA-22 dashboard created post-primary. Valadao (R) vs. Villegas (D) is set for November 3. AP called Villegas on June 9. General election timeline covers registration (Oct 19), mail ballot mailing (Oct 5), early voting (~Oct 10), Election Day (Nov 3), VBM receipt deadline (Nov 10), cure window (~Dec 1), county canvass (~Dec 3), and SOS certification (~Dec 11). All 17 sources verified. All events and rules flagged needsReview pending county-specific 2026 confirmation.",
-      "generatedAt": "2026-06-11T19:45:00Z"
+      "summary": "Week of June 22–28, 2026. Applied AB 604 (Prop. 50) boundary update: CA-22 redrawn effective January 2026 to span parts of Kern (incl. Bakersfield), Tulare, Kings, and western Fresno counties (760,066 pop., CVAP 52.5%, HSP 65.4%). Visalia and Lemoore moved out of district; Bakersfield, Delano, Wasco, Shafter, Coalinga moved in. Boundary polygon and DISTRICT fields updated from the authoritative AB 604 shapefile (src-ca-ab604-assembly). Electorate fields (registered voters, party registration, 2024 result) nulled and flagged unconfirmed (conf-ca22-002) until CA SOS publishes a new boundary-aware crosswalk. June 2 primary results stand — they were already run under these lines.",
+      "generatedAt": "2026-06-24T20:00:00Z"
     }
   }
 }
