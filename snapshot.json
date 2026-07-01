@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-24",
-  "updatedAt": "2026-06-24T20:00:00Z",
-  "exportedAt": "2026-07-01T05:38:08.732Z",
+  "dataAsOf": "2026-07-01",
+  "updatedAt": "2026-07-01T19:45:24.541Z",
+  "exportedAt": "2026-07-01T20:02:03.755Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -590,7 +590,7 @@
       {
         "id": "rule-ca22-signature-verification",
         "topic": "Signature verification and cure process",
-        "currentRule": "County elections officials compare the signature on returned mail ballot envelopes against the voter's registration signature on file. If a signature is missing or does not match, the county must notify the voter and provide an opportunity to cure the discrepancy.",
+        "currentRule": "County elections officials compare the signature on returned vote-by-mail ballot envelopes against the voter’s signature on file. If a signature is missing or does not compare to the signature on file, state law requires county elections officials to reach out to voters to verify their signature to ensure that their ballot can be counted. By law, for most elections, voters are allowed to verify their signature up to eight days before the county certifies its results.",
         "status": "active",
         "whyItMatters": "Signature mismatch is the primary cause of provisional/challenged ballot issues in CA-22. Voters must respond to county notification within the cure window to have their ballot counted.",
         "governingLevel": "statewide",
@@ -670,7 +670,7 @@
       {
         "id": "rule-ca22-top-two-primary",
         "topic": "Top-two primary system",
-        "currentRule": "California uses a nonpartisan top-two primary: all candidates appear on a single ballot regardless of party, and the top two vote-getters advance to the general election — regardless of party affiliation. A candidate can win outright if they receive more than 50% of the vote.",
+        "currentRule": "California uses a nonpartisan top-two primary system for voter-nominated offices: all candidates for these offices are listed on a single ballot regardless of party preference, and only the two candidates receiving the most votes—regardless of party preference—move on to the general election, regardless of whether one candidate receives a majority of all votes cast in the primary election.",
         "status": "active",
         "whyItMatters": "In CA-22's 2026 primary (June 2), this system produced a Valadao (R) vs. Villegas (D) general election match-up, with Bains (D) eliminated despite outspending Villegas.",
         "governingLevel": "statewide",
@@ -963,17 +963,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-24-ca-22-ab604",
-      "startedAt": "2026-06-24T19:30:00Z",
-      "completedAt": "2026-06-24T20:00:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 18,
-      "updatesCreated": 1,
-      "conflictsCreated": 1,
+      "id": "run-2026-07-01-ca22-auto",
+      "startedAt": "2026-07-01T19:44:26.375Z",
+      "completedAt": "2026-07-01T19:45:24.541Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 19,
+      "updatesCreated": 2,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "AB 604 (Prop. 50) boundary update: CA-22 redrawn effective January 2026. Parsed authoritative AB 604 shapefile (record index 33, DISTRICT='22', A_POP 760,066, DEVIATION 0). New CA-22 spans parts of Kern (incl. Bakersfield), Tulare, Kings, and western Fresno counties; Visalia and Lemoore no longer in district. Updated DISTRICT.counties, DISTRICT.majorPlaces, DISTRICT.population, and the boundary polygon in DistrictMapTile. Registered-voter count, party-registration breakdown, and 2024 previous result nulled and marked unconfirmed (conf-ca22-002) pending CA SOS publication of voter-registration totals under the new boundary. June 2 primary results (Valadao-Villegas) were already conducted under these new lines and remain valid."
+      "summary": "Automated refresh completed 2026-07-01 for CA-22. Sources checked: 19. LLM verifications: 19. 2 rule/source content changes + 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-01T19:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-08T19:45:24.541Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
