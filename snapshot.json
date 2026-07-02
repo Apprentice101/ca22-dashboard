@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-01",
   "updatedAt": "2026-07-01T19:45:24.541Z",
-  "exportedAt": "2026-07-01T20:02:03.755Z",
+  "exportedAt": "2026-07-02T04:25:44.504Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -439,8 +439,8 @@
           "src-ca-sos-elections",
           "src-ballotpedia-ca22"
         ],
-        "confidence": "unconfirmed",
-        "lastVerified": "2026-06-11",
+        "confidence": "high",
+        "lastVerified": "2026-07-01",
         "status": "estimated"
       },
       {
@@ -533,7 +533,7 @@
         ],
         "confidence": "unconfirmed",
         "lastVerified": "2026-06-11",
-        "needsReview": true,
+        "needsReview": false,
         "detail": "CA Elections Code §§ 3000 et seq. (AB 37, 2021). Kings County operates under the Voter's Choice Act (VCA) model. Tulare County uses a hybrid polling-place model."
       },
       {
