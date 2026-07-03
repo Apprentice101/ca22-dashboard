@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:16:25.363Z",
-  "exportedAt": "2026-07-03T00:35:47.905Z",
+  "updatedAt": "2026-07-03T01:25:29.788Z",
+  "exportedAt": "2026-07-03T01:41:20.469Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -143,7 +143,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-ballotpedia-ca22": {
@@ -964,16 +964,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-ca22-auto",
-      "startedAt": "2026-07-03T00:15:21.678Z",
-      "completedAt": "2026-07-03T00:16:25.363Z",
+      "startedAt": "2026-07-03T01:24:29.823Z",
+      "completedAt": "2026-07-03T01:25:29.788Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 19,
+      "sourcesChecked": 17,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for CA-22. Sources checked: 19. LLM verifications: 21. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for CA-22. Sources checked: 17. LLM verifications: 19. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:16:25.363Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:25:29.788Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
