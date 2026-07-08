@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T01:25:29.788Z",
-  "exportedAt": "2026-07-04T00:38:30.313Z",
+  "dataAsOf": "2026-07-08",
+  "updatedAt": "2026-07-08T06:23:04.218Z",
+  "exportedAt": "2026-07-08T06:27:15.159Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -963,17 +963,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-03-ca22-auto",
-      "startedAt": "2026-07-03T01:24:29.823Z",
-      "completedAt": "2026-07-03T01:25:29.788Z",
+      "id": "run-2026-07-08-ca22-auto",
+      "startedAt": "2026-07-08T06:22:45.260Z",
+      "completedAt": "2026-07-08T06:23:04.218Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
+      "sourcesChecked": 28,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for CA-22. Sources checked: 17. LLM verifications: 19. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for CA-22. Sources checked: 28. LLM verifications: 30. No changes detected; all sources verified unchanged."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T01:25:29.788Z",
+    "NEXT_REFRESH_AT": "2026-07-15T06:23:04.218Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
