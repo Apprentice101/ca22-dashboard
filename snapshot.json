@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:36:21.915Z",
-  "exportedAt": "2026-07-08T20:33:57.061Z",
+  "exportedAt": "2026-07-09T17:02:46.541Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -719,90 +719,90 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-ca-sos-elections",
-        "label": "CA Secretary of State — Elections portal",
-        "url": "https://www.sos.ca.gov/elections",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Official California elections hub: voter registration, election calendar, results, county resources, and voting rules. Authoritative source for CA-22 election deadlines.",
+        "url": "https://www.sos.ca.gov/elections",
         "governingAuthority": "California Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-ca-sos-elections",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-ca-register",
-        "label": "registertovote.ca.gov — California online voter registration",
-        "url": "https://registertovote.ca.gov",
-        "description": "Register to vote or update your registration online. Deadline for 2026 general: October 19. Available in multiple languages.",
-        "governingAuthority": "California Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-ca-sos-register",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-ca-voter-status",
-        "label": "My Voter Status — CA voter portal",
-        "url": "https://voterstatus.sos.ca.gov",
+        "id": "res-locations",
+        "label": "Find voting locations",
         "description": "Check your voter registration status, view your sample ballot, confirm your polling place, and verify your mail ballot was received and counted.",
+        "url": "https://voterstatus.sos.ca.gov",
         "governingAuthority": "California Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-ca-voter-status",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-ca-ballot-tracker",
-        "label": "Where's My Ballot? — California BallotTrax",
-        "url": "https://california.ballottrax.net",
-        "description": "Track your mail ballot status in real time: when it was sent, received by county, and counted. Sign up for email/text notifications.",
-        "governingAuthority": "California Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-ca-ballot-tracker",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-kings-elections",
-        "label": "Kings County Elections Department",
-        "url": "https://www.countyofkings.com/departments/administration/elections",
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
         "description": "Official elections page for Kings County voters (Hanford, Lemoore, Corcoran area). Vote center locations, drop box sites, and canvass updates for the CA-22 core county. Phone: (559) 852-4401.",
+        "url": "https://www.countyofkings.com/departments/administration/elections",
         "governingAuthority": "Kings County Elections Department",
         "sourceType": "official-county",
         "sourceId": "src-kings-elections",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Check your voter registration status, view your sample ballot, confirm your polling place, and verify your mail ballot was received and counted.",
+        "url": "https://voterstatus.sos.ca.gov",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-voter-status",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Track your mail ballot status in real time: when it was sent, received by county, and counted. Sign up for email/text notifications.",
+        "url": "https://california.ballottrax.net",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-ballot-tracker",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-verify",
+        "label": "Verify ballot was counted",
+        "description": "Check your voter registration status, view your sample ballot, confirm your polling place, and verify your mail ballot was received and counted.",
+        "url": "https://voterstatus.sos.ca.gov",
+        "governingAuthority": "California Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ca-voter-status",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official elections page for Kings County voters (Hanford, Lemoore, Corcoran area). Vote center locations, drop box sites, and canvass updates for the CA-22 core county. Phone: (559) 852-4401.",
+        "url": "https://www.countyofkings.com/departments/administration/elections",
+        "governingAuthority": "Kings County Elections Department",
+        "sourceType": "official-county",
+        "sourceId": "src-kings-elections",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-tulare-elections",
         "label": "Tulare County — Elections",
-        "url": "https://tularecounty.ca.gov/elections",
         "description": "Official elections and Registrar of Voters page for Tulare County (Visalia, Tulare, Porterville area) — the most populous county in CA-22. Phone: (559) 839-2100.",
+        "url": "https://tularecounty.ca.gov/elections",
         "governingAuthority": "Tulare County Registrar of Voters",
         "sourceType": "official-county",
         "sourceId": "src-tulare-elections",
         "lastVerified": "2026-06-11"
       },
       {
-        "id": "res-kern-elections",
-        "label": "Kern County Elections (kernvote.com)",
-        "url": "https://kernvote.com/",
-        "description": "Official elections page for Kern County (eastern Bakersfield precincts in CA-22). Canvass updates, drop box locations, and vote center information.",
-        "governingAuthority": "Kern County Elections",
-        "sourceType": "official-county",
-        "sourceId": "src-kern-elections",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-ca-sos-results",
-        "label": "CA SOS — Live Election Results",
-        "url": "https://electionresults.sos.ca.gov",
-        "description": "Real-time and semifinal election results from the California Secretary of State, updated throughout the canvass period. Shows CA-22 district-level results.",
-        "governingAuthority": "California Secretary of State",
-        "sourceType": "official-state",
-        "sourceId": "src-ca-sos-results",
-        "lastVerified": "2026-06-11"
-      },
-      {
         "id": "res-ballotpedia-ca22",
         "label": "Ballotpedia — CA-22 2026 election",
-        "url": "https://ballotpedia.org/California%27s_22nd_Congressional_District_election,_2026",
         "description": "Nonpartisan reference page for CA-22's 2026 election: candidate profiles, primary results, race ratings, campaign finance summary.",
+        "url": "https://ballotpedia.org/California%27s_22nd_Congressional_District_election,_2026",
         "governingAuthority": "Ballotpedia",
         "sourceType": "secondary",
         "sourceId": "src-ballotpedia-ca22",
