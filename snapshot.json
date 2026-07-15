@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:36:21.915Z",
-  "exportedAt": "2026-07-09T17:02:46.541Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:11:36.636Z",
+  "exportedAt": "2026-07-15T06:38:06.205Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -960,20 +960,40 @@
         "relevanceSummary": "The AP placed CA-22 at the center of the post-primary general election landscape, noting that Democrats redrawn Valadao's district under Prop. 50 to incorporate parts of Kings, Tulare, Fresno, and Kern counties. The Villegas vs. Valadao matchup tests whether progressives can outperform moderates in competitive Central Valley swing districts. The race is rated 'Toss-up' by Cook Political Report and Larry Sabato's Crystal Ball.",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0jqr4gt",
+        "headline": "Federal Court Affirms California’s New Congressional Districts",
+        "sourceName": "El-Balad",
+        "url": "https://www.el-balad.com/6822177",
+        "publishedAt": "2026-07-02",
+        "relevanceSummary": "A three-judge federal court panel in Los Angeles upheld California’s newly configured congressional district boundaries and dismissed a Republican lawsuit seeking to block the maps, confirming that these new lines will be used for the 2026 midterm elections.[5] This directly affects CA-22 voters by locking in the district’s boundaries and precinct lines for candidate qualification, ballot preparation, and representation in 2026.[5]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-006vmnj",
+        "headline": "California 2026 Primary Election Results: Key Takeaways for Congressional, Statewide and Local Races",
+        "sourceName": "Greenberg Traurig (GT Alert)",
+        "url": "https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races",
+        "publishedAt": "2026-06-25",
+        "relevanceSummary": "This alert summarizes outcomes of California’s June 2, 2026 top-two primary, explaining that the two highest vote-getters in each race advance to the November 3, 2026 general election under the statewide primary framework.[3] CA-22 voters are subject to this same top-two system and statewide election calendar, which governs how their congressional and other races move from primary ballots to the general election.[3]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-ca22-auto",
-      "startedAt": "2026-07-08T19:36:16.368Z",
-      "completedAt": "2026-07-08T19:36:21.915Z",
+      "id": "run-2026-07-15-ca22-auto",
+      "startedAt": "2026-07-15T06:10:29.031Z",
+      "completedAt": "2026-07-15T06:11:36.636Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 28,
-      "updatesCreated": 0,
+      "sourcesChecked": 15,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for CA-22. Sources checked: 28. LLM verifications: 29. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-15 for CA-22. Sources checked: 15. LLM verifications: 17. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:36:21.915Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:11:36.636Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
