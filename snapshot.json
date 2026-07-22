@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:11:36.636Z",
-  "exportedAt": "2026-07-15T06:38:06.205Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:26:07.077Z",
+  "exportedAt": "2026-07-22T06:49:13.856Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -983,17 +983,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-ca22-auto",
-      "startedAt": "2026-07-15T06:10:29.031Z",
-      "completedAt": "2026-07-15T06:11:36.636Z",
+      "id": "run-2026-07-22-ca22-auto",
+      "startedAt": "2026-07-22T06:24:56.140Z",
+      "completedAt": "2026-07-22T06:26:07.077Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 2,
+      "sourcesChecked": 14,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for CA-22. Sources checked: 15. LLM verifications: 17. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for CA-22. Sources checked: 14. LLM verifications: 16. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:11:36.636Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:26:07.077Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
