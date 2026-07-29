@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:26:07.077Z",
-  "exportedAt": "2026-07-22T21:14:21.289Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:28:24.791Z",
+  "exportedAt": "2026-07-29T06:52:39.386Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -143,7 +143,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ballotpedia-ca22": {
@@ -980,20 +980,80 @@
         "relevanceSummary": "This alert summarizes outcomes of California’s June 2, 2026 top-two primary, explaining that the two highest vote-getters in each race advance to the November 3, 2026 general election under the statewide primary framework.[3] CA-22 voters are subject to this same top-two system and statewide election calendar, which governs how their congressional and other races move from primary ballots to the general election.[3]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0y2qfpa",
+        "headline": "California's vote count was painfully slow. Can this watchdog’s blueprint fix it?",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/california/story/2026-07-27/vote-count-watchdog-report",
+        "publishedAt": "2026-07-27",
+        "relevanceSummary": "Reports on a statewide watchdog report recommending changes like earlier return of vote-by-mail ballots and possible process adjustments to speed up counting, which would influence how CA-22 ballots are handled and when local voters see results.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0d41thd",
+        "headline": "Supreme Court Ruling Allows California to Continue Accepting Ballots After Election Day",
+        "sourceName": "KQED",
+        "url": "https://www.kqed.org/electionsnews",
+        "publishedAt": "2026-07-27",
+        "relevanceSummary": "Explains a recent court decision that lets California continue counting timely mailed vote-by-mail ballots that arrive after Election Day, directly affecting how CA-22 voters’ mail ballots will be treated and when results are finalized.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-038695r",
+        "headline": "See congressional fundraising updates, including crucial CA race in District 22",
+        "sourceName": "The Fresno Bee",
+        "url": "https://www.fresnobee.com/news/politics-government/article316542217.html",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "The Fresno Bee details recent FEC fundraising reports for CA-22 candidates David Valadao and Randy Villegas, indicating active, compliant campaign filings and reinforcing that these candidates are on track for the November general ballot in the district.[2]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0yfnntx",
+        "headline": "Election forecasters rate CA-22 Toss-up or Tilt Republican as Valadao (R) and Villegas (D) run under new district lines",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/07/18/election-forecasters-rate-ca-22-toss-up-or-tilt-republican-as-valadao-r-and-villegas-d-run-under-new-district-lines/",
+        "publishedAt": "2026-07-18",
+        "relevanceSummary": "Ballotpedia reports that the November 3, 2026 general election in CA-22 will feature incumbent David Valadao and challenger Randy Villegas running under new district lines, confirming candidate qualifications and the contest structure for CA-22 voters.[1]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0jmk8sw",
+        "headline": "California rejects nearly 150,000 mail ballots despite voter safeguards",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/california-rejects-nearly-150000-mail-ballots-despite-voter-safeguards/",
+        "publishedAt": "2026-07-17",
+        "relevanceSummary": "Newly released statewide data show California officials rejected 148,241 mail ballots in the recent election, mostly because they arrived too late, underscoring that CA-22 voters must mail or drop off ballots by Election Day and within the state’s seven-day receipt window.[7]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0sg78zz",
+        "headline": "House Progressives Knock DCCC for Picking Sides in Contested Primary",
+        "sourceName": "Ground News",
+        "url": "https://ground.news/article/dem-establishment-accused-of-putting-thumb-on-the-scale-against-progressive-candidate_25610d",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "Coverage of the DCCC’s intervention in the CA-22 Democratic primary between Randy Villegas and Jasmeet Bains highlights internal party dynamics affecting which candidates qualify and advance, information relevant to CA-22 voters tracking who may appear on the November ballot.[5]",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-ca22-auto",
-      "startedAt": "2026-07-22T06:24:56.140Z",
-      "completedAt": "2026-07-22T06:26:07.077Z",
+      "id": "run-2026-07-29-ca22-auto",
+      "startedAt": "2026-07-29T06:27:12.815Z",
+      "completedAt": "2026-07-29T06:28:24.791Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 0,
+      "sourcesChecked": 15,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for CA-22. Sources checked: 14. LLM verifications: 16. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for CA-22. Sources checked: 15. LLM verifications: 17. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:26:07.077Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:28:24.791Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
