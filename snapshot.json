@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:28:24.791Z",
-  "exportedAt": "2026-07-29T06:52:39.386Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:24:11.699Z",
+  "exportedAt": "2026-08-05T06:46:21.104Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -143,7 +143,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ballotpedia-ca22": {
@@ -1040,20 +1040,40 @@
         "relevanceSummary": "Coverage of the DCCC’s intervention in the CA-22 Democratic primary between Randy Villegas and Jasmeet Bains highlights internal party dynamics affecting which candidates qualify and advance, information relevant to CA-22 voters tracking who may appear on the November ballot.[5]",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0lwsrxj",
+        "headline": "Fury as Dems unleash ‘rigging’ plot to kill voter ID in California: ‘Blatant manipulation’",
+        "sourceName": "New York Post",
+        "url": "https://nypost.com/2026/07/22/us-news/rephrased-california-voter-id-measure-sparks-election-rigging-outcry/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "The New York Post covers controversy over a rephrased California voter ID ballot measure, highlighting potential changes to statewide voter-identification requirements that would directly impact in-person and mail voting for CA-22 residents.[9]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-09tm7i1",
+        "headline": "Election security at center of California Republicans' push to win over fed-up voters",
+        "sourceName": "Fox News",
+        "url": "https://www.foxnews.com/politics/election-security-center-california-republicans-push-win-over-fed-up-voters",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "Fox News describes GOP efforts in California focused on election security, including debates over mail-in ballot procedures and ballot drop-off rules, signaling potential statewide policy or administrative changes that would affect CA-22 voters.[14]",
+        "tag": "security",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-ca22-auto",
-      "startedAt": "2026-07-29T06:27:12.815Z",
-      "completedAt": "2026-07-29T06:28:24.791Z",
+      "id": "run-2026-08-05-ca22-auto",
+      "startedAt": "2026-08-05T06:23:09.955Z",
+      "completedAt": "2026-08-05T06:24:11.699Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 6,
+      "sourcesChecked": 14,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for CA-22. Sources checked: 15. LLM verifications: 17. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for CA-22. Sources checked: 14. LLM verifications: 16. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:28:24.791Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:24:11.699Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
