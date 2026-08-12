@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:24:11.699Z",
-  "exportedAt": "2026-08-05T06:46:21.104Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:27:31.592Z",
+  "exportedAt": "2026-08-12T05:45:47.186Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1060,20 +1060,50 @@
         "relevanceSummary": "Fox News describes GOP efforts in California focused on election security, including debates over mail-in ballot procedures and ballot drop-off rules, signaling potential statewide policy or administrative changes that would affect CA-22 voters.[14]",
         "tag": "security",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0czuro9",
+        "headline": "California lawmakers and advocates push voter protection measures ahead of November election",
+        "sourceName": "Los Angeles Sentinel",
+        "url": "https://lasentinel.net/california-lawmakers-and-advocates-push-voter-protection-measures-ahead-of-november-election.html",
+        "publishedAt": "2026-08-12",
+        "relevanceSummary": "The article says proposed bills would expand access to early-voting and ballot drop-off locations and prohibit law enforcement, including federal immigration agents, from making arrests within 200 feet of a polling place while voting is underway. That matters to CA-22 voters because these are statewide California election-procedure changes that would apply in the district if enacted.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0cibewq",
+        "headline": "Attorney General Bonta and Secretary of State Weber Secure Preliminary Injunction",
+        "sourceName": "California Attorney General’s Office",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-and-secretary-state-weber-secure-preliminary-injunction",
+        "publishedAt": "2026-08-12",
+        "relevanceSummary": "A California judge blocked Shasta County from enforcing Measure B, which would have required government-issued photo ID to register and vote in person, eliminated vote-by-mail and most early voting, and created a separate county registration system. This is directly relevant to CA-22 voters because statewide election rules and county precedent in California affect voter-ID and ballot-access procedures.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0w3hjxs",
+        "headline": "June election went ‘smoothly' for Alameda County, says new registrar",
+        "sourceName": "Berkeleyside",
+        "url": "https://www.berkeleyside.org/2026/08/05/june-election-went-smoothly-for-alameda-county-says-new-registrar-2",
+        "publishedAt": "2026-08-05",
+        "relevanceSummary": "Alameda County’s new registrar discussed June election administration and said the county’s election operations went smoothly. County-level election administration coverage in California is relevant to CA-22 voters because it reflects how ballot processing, polling logistics, and voter services are being handled statewide.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-ca22-auto",
-      "startedAt": "2026-08-05T06:23:09.955Z",
-      "completedAt": "2026-08-05T06:24:11.699Z",
+      "id": "run-2026-08-12-ca22-auto",
+      "startedAt": "2026-08-12T05:26:31.664Z",
+      "completedAt": "2026-08-12T05:27:31.592Z",
       "triggerType": "scheduled",
       "sourcesChecked": 14,
-      "updatesCreated": 2,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for CA-22. Sources checked: 14. LLM verifications: 16. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for CA-22. Sources checked: 14. LLM verifications: 15. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:24:11.699Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:27:31.592Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
