@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:27:31.592Z",
-  "exportedAt": "2026-08-12T05:45:47.186Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:33:41.127Z",
+  "exportedAt": "2026-08-19T05:06:00.610Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -1090,20 +1090,100 @@
         "relevanceSummary": "Alameda County’s new registrar discussed June election administration and said the county’s election operations went smoothly. County-level election administration coverage in California is relevant to CA-22 voters because it reflects how ballot processing, polling logistics, and voter services are being handled statewide.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0p99h3x",
+        "headline": "Official Election Site of Alameda County",
+        "sourceName": "Alameda County Registrar of Voters (ACVOTE)",
+        "url": "https://acvote.alamedacountyca.gov/index",
+        "publishedAt": "2026-08-19",
+        "relevanceSummary": "The county’s official election site highlights ongoing voter registration events and local election-day information, providing a concrete example of California county-level outreach and registration practices that reflect how election offices statewide, including those serving CA-22, are facilitating voter registration and access to polling locations.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-03eqocu",
+        "headline": "Congressional District 14* - Special Election",
+        "sourceName": "California Secretary of State",
+        "url": "https://www.sos.ca.gov/elections/upcoming-elections/2026-cd14",
+        "publishedAt": "2026-08-19",
+        "relevanceSummary": "State election officials publish signature cure statements and instructions for a 2026 special general election in Congressional District 14, detailing how voters can fix issues with their vote-by-mail identification envelopes, which signals current statewide signature-cure practices that are likely to apply in similar form for CA-22’s November general.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0eelw8r",
+        "headline": "General Election - November 3, 2026",
+        "sourceName": "California Secretary of State",
+        "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
+        "publishedAt": "2026-08-19",
+        "relevanceSummary": "The Secretary of State outlines statewide deadlines and procedures for the November 3, 2026 general election, including the last day to register (October 19), when counties will begin mailing ballots (by October 5), the opening of secure ballot drop-off locations (October 6), and mail ballot postmark requirements, all of which directly govern how CA-22 voters can register, vote by mail, and use drop boxes.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0s5nu0j",
+        "headline": "California Voting Information",
+        "sourceName": "Vote411 (League of Women Voters)",
+        "url": "https://www.vote411.org/california",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "The California page on Vote411 aggregates statewide voter information and directs voters to local election officials for questions about the primary, serving as a nonpartisan voter-resource hub that CA-22 voters can use to confirm registration, ballot procedures, and polling-place details.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-06j3bmv",
+        "headline": "SLO County Elections Office: What Voters Should Know About Safety at Voting Locations",
+        "sourceName": "San Luis Obispo County Clerk-Recorder",
+        "url": "https://www.slocounty.ca.gov/departments/clerk-recorder/news-announcements/slo-county-elections-office-what-voters-should-know-about-safety-at-voting-locations",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "San Luis Obispo County’s elections office explains that every active registered voter will be mailed a vote-by-mail ballot, details options for returning ballots by mail or official drop box, and introduces a new option to deposit a mail ballot directly into the precinct ballot box at the assigned polling place, illustrating county-level implementation of statewide mail-ballot and polling-place procedures that are informative for CA-22 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0spsk11",
+        "headline": "California primary election 2026 today: Top candidates, where do I vote in California, polling place locator, complete voting guide",
+        "sourceName": "Inkl / California elections guide",
+        "url": "https://www.inkl.com/news/california-primary-election-2026-today-top-candidates-where-do-i-vote-in-california-polling-place-locator-complete-voting-guide",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This statewide voting guide explains that California polls close at 8 p.m., notes that voters must use their assigned polling locations, and emphasizes checking registration and polling-place information before voting, offering procedural guidance that applies to CA-22 voters for locating polling places and planning in-person voting.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0b0cvsn",
+        "headline": "ACVOTE - November 3, 2026 - General Election",
+        "sourceName": "Alameda County Registrar of Voters (ACVOTE)",
+        "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=260",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "Alameda County’s general-election information page lists key administrative dates, including the opening of 24-hour ballot drop boxes and the close of voter registration for November 3, 2026, illustrating how California counties are implementing statewide rules on ballot drop-off and registration that are relevant precedents for CA-22 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0flalb9",
+        "headline": "SB 884: Elections in 2026 through 2029.",
+        "sourceName": "CalMatters Digital Democracy",
+        "url": "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb884",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This bill summary describes California election rules through 2029, including requirements that counties provide ballot drop-off locations open at least 28 days before an election and that vote-by-mail ballots are timely if postmarked on or before Election Day and received within seven days, directly affecting how CA-22 voters can use drop boxes and mail their ballots for the November general.",
+        "tag": "legislation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-ca22-auto",
-      "startedAt": "2026-08-12T05:26:31.664Z",
-      "completedAt": "2026-08-12T05:27:31.592Z",
+      "id": "run-2026-08-19-ca22-auto",
+      "startedAt": "2026-08-19T04:32:08.984Z",
+      "completedAt": "2026-08-19T04:33:41.127Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 3,
+      "sourcesChecked": 13,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for CA-22. Sources checked: 14. LLM verifications: 15. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for CA-22. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:27:31.592Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:33:41.127Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
