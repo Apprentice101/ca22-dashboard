@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:33:41.127Z",
-  "exportedAt": "2026-08-19T05:06:00.610Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:37:04.913Z",
+  "exportedAt": "2026-08-26T05:13:51.192Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -1170,20 +1170,90 @@
         "relevanceSummary": "This bill summary describes California election rules through 2029, including requirements that counties provide ballot drop-off locations open at least 28 days before an election and that vote-by-mail ballots are timely if postmarked on or before Election Day and received within seven days, directly affecting how CA-22 voters can use drop boxes and mail their ballots for the November general.",
         "tag": "legislation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0q38v9t",
+        "headline": "November 3, 2026, California General Election",
+        "sourceName": "County of Merced",
+        "url": "https://www.countyofmerced.com/m/newsflash/home/detail/2871",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This county election notice is relevant to CA-22 voters because county procedures in California often reflect and operationalize statewide rules on ballot mailing, drop boxes, vote centers, and conditional registration. It says ballots will mail October 5, vote centers will be available, and conditional registration begins October 20.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0pq1j62",
+        "headline": "Secretary of State Shirley N. Weber Urges Californians to Vote Early",
+        "sourceName": "San Diego Voice & Viewpoint",
+        "url": "https://sdvoice.info/secretary-of-state-shirley-n-weber-urges-californians-to-vote-early/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This statewide Secretary of State coverage is relevant to CA-22 voters because it highlights California’s current ballot-verification process, including the state’s signature-verification safeguards for mail ballots. The article also notes that California generally does not require voters to present ID when casting a ballot.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0spjz8u",
+        "headline": "Supreme Court for now allows Trump to plan new mail ...",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/politics/story/2026-08-24/supreme-court-allows-trumps-plan-to-regulate-but-not-block-use-of-mail-ballots",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This statewide procedural story matters to CA-22 voters because it concerns a Supreme Court order affecting mail-ballot administration and federal handling of voter data, issues that can influence California’s vote-by-mail system. The article says the Homeland Security Department may compile lists of eligible voters under the court’s ruling.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-00wv291",
+        "headline": "Key Dates and Deadlines - California Secretary of State",
+        "sourceName": "California Secretary of State",
+        "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026/key-dates-deadlines",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This statewide election-calendar update matters to CA-22 voters because it sets the official November general-election timeline, including when ballots start mailing, when voter registration closes, and when same-day registration begins. It also confirms California’s vote-by-mail receipt rules and county obligations for the general election.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0q5jiwr",
+        "headline": "California's Voter ID initiative goes national",
+        "sourceName": "Stocktonia News",
+        "url": "https://stocktonia.org/news/politics/2026/08/21/californias-voter-id-initiative-goes-national/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "This article is relevant to CA-22 voters because it describes the statewide voter-ID proposal and explains how it would affect in-person voting and mail ballots across California. It says voters would need to show identification for polling-place voting or provide government ID information when voting by mail.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0xmne3t",
+        "headline": "Registrar-Recorder/County Clerk Begins Outreach Mailings for 2026 General Election",
+        "sourceName": "Los Angeles County",
+        "url": "https://lacounty.gov/2026/08/21/registrar-recorder-county-clerk-begins-outreach-mailings-for-2026-general-election/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "Los Angeles County’s election mailing notice is relevant to CA-22 voters because it explains California’s county-level vote-by-mail process, including ballot mailing, drop-box availability, and vote center timing. The county says ballots will mail no later than October 5 and drop boxes will open the same day.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0lnurh3",
+        "headline": "California Voters to Decide on Voter ID Requirements This November With Proposition 39",
+        "sourceName": "Palm Springs Tribune",
+        "url": "https://pstribune.com/2026/08/20/california-voters-to-decide-on-voter-id-requirements-this-november-with-proposition-39/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "This article is directly relevant because it covers a proposed statewide voter-ID change that would affect all California voters, including those in CA-22, at both polling places and for mail ballots. The story says California currently does not require ID at polling places or when submitting a mail ballot, but Proposition 39 would change that.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-ca22-auto",
-      "startedAt": "2026-08-19T04:32:08.984Z",
-      "completedAt": "2026-08-19T04:33:41.127Z",
+      "id": "run-2026-08-26-ca22-auto",
+      "startedAt": "2026-08-26T04:35:42.405Z",
+      "completedAt": "2026-08-26T04:37:04.913Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
-      "updatesCreated": 8,
+      "sourcesChecked": 12,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for CA-22. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for CA-22. Sources checked: 12. LLM verifications: 13. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:33:41.127Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:37:04.913Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
