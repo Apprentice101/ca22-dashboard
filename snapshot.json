@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:37:04.913Z",
-  "exportedAt": "2026-08-26T05:13:51.192Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:22:01.597Z",
+  "exportedAt": "2026-09-02T09:07:38.143Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1240,20 +1240,90 @@
         "relevanceSummary": "This article is directly relevant because it covers a proposed statewide voter-ID change that would affect all California voters, including those in CA-22, at both polling places and for mail ballots. The story says California currently does not require ID at polling places or when submitting a mail ballot, but Proposition 39 would change that.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0nrqute",
+        "headline": "Amid Whistleblower Warning Rohnert Park Will Cast By-Mail Ballots As Is",
+        "sourceName": "Patch Rohnert Park-Cotati",
+        "url": "https://patch.com/california/sonomavalley/amid-whistleblower-warning-rohnert-park-will-cast-mail-ballots",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "Sonoma County election officials confirm that Rohnert Park and Cotati will maintain their current vote-by-mail procedures, including the schedule for mailing ballots, operating voting centers, and using official ballot drop boxes, offering another concrete example of how California counties are administering mail voting and drop-box access under statewide rules that also apply to CA-22.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0vdy4kw",
+        "headline": "Petaluma Will See Vote By Mail As Is Amid Whistleblower Warning",
+        "sourceName": "Patch Petaluma",
+        "url": "https://patch.com/california/petaluma/petaluma-will-see-vote-mail-amid-whistleblower-warning",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "The article details Sonoma County’s plan to continue its existing vote-by-mail procedures, including when ballots will be mailed, the number of voting centers and official drop boxes, and deadlines for drop box returns and mailed ballots, illustrating county-level implementation of California’s mail ballot and drop-box rules that are analogous to those affecting CA-22.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0qi049v",
+        "headline": "California SB 884: Elections in 2026 through 2029",
+        "sourceName": "GovBuddy",
+        "url": "https://www.govbuddy.com/california/bills/sb-884/",
+        "publishedAt": "2026-08-31",
+        "relevanceSummary": "SB 884 sets new statewide rules for 2026–2029 elections, requiring each California county to provide minimum numbers of ballot drop-off locations, extending the deadline for vote-by-mail ballots to be received up to ten days after Election Day, and expanding no-electioneering and law-enforcement buffer zones around polling places, directly affecting mail and in-person voting procedures for CA-22 voters.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0doot99",
+        "headline": "Nevada County Registrar Assures Voters Mail-In Voting Plans Remain on Track",
+        "sourceName": "YubaNet",
+        "url": "https://yubanet.com/regional/nevada-county-registrar-assures-voters-mail-in-voting-plans-remain-on-track/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Nevada County’s registrar describes timelines for mailing ballots, contact information for the elections office, and reassurances about the continuity of mail-in voting plans, providing a county-level example of how California jurisdictions are administering vote-by-mail logistics under statewide rules relevant to CA-22 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0gpbmfe",
+        "headline": "Attorney General Bonta Secures Early Win for Voters in Lawsuit Over USPS Rule",
+        "sourceName": "California Attorney General (press release)",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-early-win-voters-lawsuit-over-usps-rule",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "The California Attorney General obtained a temporary restraining order blocking core parts of a federal USPS-related rule for 14 days, helping ensure that states, including California, can administer upcoming elections and process mail ballots without new federal requirements immediately disrupting existing procedures for CA-22 voters.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-095wxnf",
+        "headline": "California AB 1610: Elections: notice",
+        "sourceName": "GovBuddy",
+        "url": "https://www.govbuddy.com/california/bills/ab-1610/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "AB 1610 changes how county election officials handle voter-registration records when U.S. Postal Service data shows a mailing-address problem, requiring them to update addresses or send specific notices to voters, which affects how CA-22 voters are notified if their registration mailing address becomes invalid.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0dxuam2",
+        "headline": "What the Supreme Court's mail voting decision means for California's midterm elections",
+        "sourceName": "Orange County Register",
+        "url": "https://www.ocregister.com/2026/08/26/what-the-supreme-courts-mail-voting-decision-means-for-californias-midterm-elections/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "This article explains that a recent U.S. Supreme Court ruling on federal mail-in voting rules is expected to have little practical impact on California’s existing vote-by-mail system, clarifying for CA-22 voters that their current mail ballot processes and protections largely remain in place despite national legal changes.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-ca22-auto",
-      "startedAt": "2026-08-26T04:35:42.405Z",
-      "completedAt": "2026-08-26T04:37:04.913Z",
+      "id": "run-2026-09-02-ca22-auto",
+      "startedAt": "2026-09-02T08:20:02.470Z",
+      "completedAt": "2026-09-02T08:22:01.597Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
+      "sourcesChecked": 13,
       "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for CA-22. Sources checked: 12. LLM verifications: 13. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for CA-22. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:37:04.913Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:22:01.597Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
