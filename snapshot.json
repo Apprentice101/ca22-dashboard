@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:22:01.597Z",
-  "exportedAt": "2026-09-02T09:07:38.143Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T08:36:21.651Z",
+  "exportedAt": "2026-09-09T09:18:04.204Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -1310,20 +1310,100 @@
         "relevanceSummary": "This article explains that a recent U.S. Supreme Court ruling on federal mail-in voting rules is expected to have little practical impact on California’s existing vote-by-mail system, clarifying for CA-22 voters that their current mail ballot processes and protections largely remain in place despite national legal changes.",
         "tag": "legal",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0p5y5h7",
+        "headline": "What are the key dates leading to the November general election?",
+        "sourceName": "The Tribune (San Luis Obispo)",
+        "url": "https://www.sanluisobispo.com/news/california/article317069622.html",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This article outlines important dates before the November general election, including when voter information guides are mailed in at least one California county, providing CA-22 voters with a timeline for receiving election information and preparing to vote.[2]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0vjh1sd",
+        "headline": "How Latino Voters Can Navigate California's 2026 Ballot Access Rules",
+        "sourceName": "Calatino News",
+        "url": "https://calatinonews.com/california-ballot-access-2026-latino-voter-guide/",
+        "publishedAt": "2026-09-06",
+        "relevanceSummary": "This voter guide details California’s current ballot-access rules for the November election, including mail-ballot postmark and receipt deadlines, automatic mailing of ballots to active registrants, registration deadlines, and clarifies that Proposition 39’s voter ID requirements are a proposal, not yet in effect, offering actionable voting and registration information for CA-22 voters.[10]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0e7e187",
+        "headline": "California voting right leaders fight mail-in voting restrictions targeting Black voters",
+        "sourceName": "Our Weekly",
+        "url": "https://www.ourweekly.com/2026/09/04/california-voting-right-leaders-fight-mail-in-voting-restrictions-targeting-black-voters/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This story reports on California voting-rights leaders responding to federal mail-in ballot restrictions and notes that a federal court temporarily halted USPS changes affecting mail voting, information that reassures CA-22 voters using mail ballots that certain nationwide postal limits are blocked ahead of November.[3]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0xnqso7",
+        "headline": "California legislators passed several election-related bills. Here are 5 of them",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/california-legislators-passed-several-election-191628477.html",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This article summarizes multiple new California election-administration bills, including SB 259 making interference with vote-by-mail ballot delivery or return a felony, SB 1418 strengthening preservation rules for election records, and AB 2604 requiring an online system to fix unsigned vote-by-mail ballots, all of which would impact mail-ballot security and signature-cure options for CA-22 voters once signed.[12]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0kqq4jd",
+        "headline": "AB-827 Voting: signature verification.",
+        "sourceName": "Keeping Law Simple",
+        "url": "https://www.keepinglawsimple.org/area/california/bill/2026/AB-827",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This explainer covers AB-827, which changes California’s signature-cure procedures by extending timelines for notifying voters of missing or mismatched signatures on mail ballots in statewide elections, allowing voters to drop off cure forms at drop boxes, and updating signature records, directly affecting how CA-22 voters resolve mail-ballot signature issues.[9]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0svdbyy",
+        "headline": "Proposition 39 Pushes for Stricter Voter ID Laws in California",
+        "sourceName": "DigitalChew",
+        "url": "https://digitalchew.com/2026/09/voter-proposition-39-pushes-for-stricter/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This piece explains Proposition 39, which would require government-issued ID for in-person voting, mandate an ID number designation for mail voters, and add citizenship verification and voter-roll maintenance requirements, indicating a potential statewide change to California voter ID and mail-ballot procedures that would directly affect CA-22 voters if approved.[4]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0z82zsq",
+        "headline": "Key dates to know for the November 2026 election in California",
+        "sourceName": "NBC Los Angeles",
+        "url": "https://www.nbclosangeles.com/news/california-news/november-2026-election-deadlines-dates/3937594/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This statewide guide lists official California election deadlines for mailing voter information guides and ballots to military and overseas voters, along with the mailing window for state and county voter guides, helping CA-22 voters know when to expect key election materials and plan their voting method accordingly.[5]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0oanoau",
+        "headline": "San Jose Spotlight: Federal Vote-By-Mail Challenges Unlikely To Affect Santa Clara County",
+        "sourceName": "SFGATE / San Jose Spotlight",
+        "url": "https://www.sfgate.com/news/bayarea/article/san-jose-spotlight-federal-vote-by-mail-22414892.php",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "This article explains that despite ongoing federal legal battles over mail-in ballot restrictions, Santa Clara County’s registrar expects no change to local voting procedures and emphasizes that all registered California voters continue to receive mail ballots under existing state reforms, a message that supports CA-22 voters’ understanding that standard vote-by-mail processes remain in place.[11]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-ca22-auto",
-      "startedAt": "2026-09-02T08:20:02.470Z",
-      "completedAt": "2026-09-02T08:22:01.597Z",
+      "id": "run-2026-09-09-ca22-auto",
+      "startedAt": "2026-09-09T08:34:19.329Z",
+      "completedAt": "2026-09-09T08:36:21.651Z",
       "triggerType": "scheduled",
       "sourcesChecked": 13,
-      "updatesCreated": 7,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for CA-22. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for CA-22. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:22:01.597Z",
+    "NEXT_REFRESH_AT": "2026-09-16T08:36:21.651Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
