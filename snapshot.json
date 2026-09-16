@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T08:36:21.651Z",
-  "exportedAt": "2026-09-09T09:18:04.204Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:03:45.296Z",
+  "exportedAt": "2026-09-16T09:49:33.777Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -1390,20 +1390,100 @@
         "relevanceSummary": "This article explains that despite ongoing federal legal battles over mail-in ballot restrictions, Santa Clara County’s registrar expects no change to local voting procedures and emphasizes that all registered California voters continue to receive mail ballots under existing state reforms, a message that supports CA-22 voters’ understanding that standard vote-by-mail processes remain in place.[11]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0u7h4v0",
+        "headline": "November 3, 2026 Consolidated Statewide General Election",
+        "sourceName": "Fresno County Clerk/Registrar of Voters",
+        "url": "https://www.fresnocountyca.gov/Departments/County-ClerkRegistrar-of-Voters/Elections/Election-Information/2026/November-3-2026-Consolidated-Statewide-General-Election",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Provides official county‑level information for the November 3, 2026 statewide general election, including the Oct. 5–27 mail‑ballot mailing window and related logistics in Fresno County, a key county overlapping CA‑22, so voters there can anticipate when ballots will arrive and how local administration is structured.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-062j1qa",
+        "headline": "National Voter Registration Day is Today",
+        "sourceName": "Santa Barbara Independent",
+        "url": "https://www.independent.com/2026/09/15/national-voter-registration-day-is-today/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Reminds California voters they can verify and update registration through the Secretary of State or county elections offices and describes access to paper registration forms at post offices, libraries, and local election offices, illustrating practical county‑level procedures that also reflect how CA-22 voters can interact with election administrators.[9]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-05rtrsy",
+        "headline": "Midterms 2026: How to Register to Vote (or Make Sure You're Already Correctly Registered)",
+        "sourceName": "KQED",
+        "url": "https://www.kqed.org/news/12099793/am-i-registered-to-vote-midterms-2026-california-voting-for-governor-check-voter-registration-mail-in-ballots",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Details statewide voter registration rules, including the Oct. 19 online deadline, conditional same‑day registration at county elections offices and voting locations, and confirms that every registered California voter will automatically receive a mail ballot, with counties beginning mailing by Oct. 5—critical procedural information for CA-22 voters.[11]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0xjdoei",
+        "headline": "How do I register to vote in California general election? Follow these steps",
+        "sourceName": "The Sacramento Bee",
+        "url": "https://www.sacbee.com/news/politics-government/election/california-elections/article317067448.html",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Provides step‑by‑step statewide guidance on voter registration, the Oct. 19 registration deadline for the 2026 general election, same‑day registration options at polling places and vote centers, and how to check registration status—procedures that govern CA-22 voters for November.[3]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0r7cck0",
+        "headline": "National Voter Registration Day 2026: How to register to vote in California",
+        "sourceName": "KCRA",
+        "url": "https://www.kcra.com/article/how-to-register-to-vote-california-2026-elections/73746015",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Explains how Californians register to vote online and what identification (driver’s license or ID number and/or last four of Social Security number) is needed, and notes key statewide timelines for when voter guides and mail-in ballots will be sent and how they can be returned by mail, drop box, or voting center—rules that apply directly to CA-22 voters.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0xd5rkf",
+        "headline": "Postal Service v. California — Supreme Court Leaves Ballot Mail Rule Stay Denied",
+        "sourceName": "LexCalifornia",
+        "url": "https://lexcalifornia.com/administrative-law/postal-service-california-ballot-mail-rule-stay-denied/",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "Explains that California election officials can continue existing 2026 ballot‑mail operations without redesigning envelopes, adding barcodes, or submitting extra voter data under the challenged Postal Service rule, preserving current mail‑ballot handling and timelines for all California voters, including those in CA‑22.[15]",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0p8evmd",
+        "headline": "Governor Newsom announces California-backed victory after Supreme Court blocks Trump’s attack on vote-by-mail",
+        "sourceName": "Office of Governor Gavin Newsom",
+        "url": "https://www.gov.ca.gov/2026/09/14/governor-newsom-announces-california-backed-victory-after-supreme-court-blocks-trumps-attack-on-vote-by-mail/",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "Announces that a U.S. Supreme Court ruling blocked a federal Postal Service rule that would have restricted California’s vote‑by‑mail process, meaning existing statewide mail‑ballot procedures and operations remain in place for 2026, which stabilizes mail‑ballot rules for CA‑22 voters.[13]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0rbnbxp",
+        "headline": "With mail-in rules uncertain, here’s how Californians can prepare to vote in November",
+        "sourceName": "CalMatters",
+        "url": "https://calmatters.org/politics/2026/09/mail-in-voting-before-supreme-court/",
+        "publishedAt": "2026-09-12",
+        "relevanceSummary": "Clarifies that mail‑in voting remains available and generally reliable in California and urges voters to return ballots early, while summarizing statewide guidance on using mail, drop boxes, or election offices—information directly affecting how CA‑22 voters can plan to cast their November ballots.[5]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-ca22-auto",
-      "startedAt": "2026-09-09T08:34:19.329Z",
-      "completedAt": "2026-09-09T08:36:21.651Z",
+      "id": "run-2026-09-16-ca22-auto",
+      "startedAt": "2026-09-16T09:02:13.642Z",
+      "completedAt": "2026-09-16T09:03:45.296Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
+      "sourcesChecked": 12,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for CA-22. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for CA-22. Sources checked: 12. LLM verifications: 13. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T08:36:21.651Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:03:45.296Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
