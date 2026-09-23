@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:03:45.296Z",
-  "exportedAt": "2026-09-16T09:49:33.777Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:04:21.463Z",
+  "exportedAt": "2026-09-23T09:35:47.713Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1470,20 +1470,100 @@
         "relevanceSummary": "Clarifies that mail‑in voting remains available and generally reliable in California and urges voters to return ballots early, while summarizing statewide guidance on using mail, drop boxes, or election offices—information directly affecting how CA‑22 voters can plan to cast their November ballots.[5]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ygzgd2",
+        "headline": "California mail-in ballots increasingly rejected as late, study finds",
+        "sourceName": "CBS Sacramento",
+        "url": "https://www.cbsnews.com/sacramento/news/california-mail-in-ballots-study/",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "The article explains that California mail ballots must reach an official drop box, polling place, vote center, or county elections office by 8 p.m. on Election Day, while mailed ballots must be postmarked by Election Day; it also reports statewide ballot-drop-box and ballot-mailing dates. These procedures directly apply to CA-22 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0fuy64n",
+        "headline": "Despite court wins, California election war with Trump rages on",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/politics/story/2026-09-21/despite-court-wins-california-election-war-with-trump-rages-on",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The article reports on litigation affecting proposed limits on mail ballots in California’s elections. Because mail-ballot rules apply statewide, the legal development is relevant to CA-22 voters.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0jz3gs5",
+        "headline": "California governor touts protection of democracy in bill signings",
+        "sourceName": "Courthouse News Service",
+        "url": "https://www.courthousenews.com/california-governor-touts-protection-of-democracy-in-bill-signings/",
+        "publishedAt": "2026-09-20",
+        "relevanceSummary": "The article reports that new California laws expand the period during which vote-by-mail drop-off locations are open and further restrict certain activities near polling places through 2029. The changes are statewide and relevant to CA-22 election logistics.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-09zo8i8",
+        "headline": "Gov. Newsom signs election security bills expanding voter access, preventing interference ahead of midterms",
+        "sourceName": "ABC7 News",
+        "url": "https://abc7news.com/post/california-governor-gavin-newsom-signs-election-security-bills-expanding-voter-access-preventing-interference-ahead-midterms/19851317/",
+        "publishedAt": "2026-09-20",
+        "relevanceSummary": "The article reports that newly signed California laws expand voter access and protect statewide vote-by-mail procedures and voting systems. These statewide election-administration changes apply to voters in CA-22.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0a8bplq",
+        "headline": "Newsom signs bills to shield California elections from Trump interference, increase transparency",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/california/story/2026-09-19/newsom-signs-bills-to-shield-california-elections-from-trump-interference-increase-transparency",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "The article says SB 884 requires counties to open ballot drop-off locations 30 days before an election and permits counties to expand electioneering restrictions around polling sites. Those statewide administrative changes affect ballot-return logistics for CA-22 voters.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-09zhfep",
+        "headline": "Governor Newsom signs new laws to protect California elections from Trump interference",
+        "sourceName": "Office of Governor Gavin Newsom",
+        "url": "https://www.gov.ca.gov/2026/09/19/governor-newsom-signs-new-laws-to-protect-california-elections-from-trump-interference/",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "The article reports that SB 1420 requires uniform procedures allowing voters to vote a vote-by-mail ballot at a polling location without the ballot’s identification envelope and requires early in-person voting information in the state voter guide. The statewide changes are relevant to CA-22 voters.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0t5l1hp",
+        "headline": "California Secretary of State Shirley N. Weber, Ph.D., Encourages Californians to Take Action in Honor of National Voter Registration Day",
+        "sourceName": "Santa Barbara Independent",
+        "url": "https://www.independent.com/2026/09/18/california-secretary-of-state-shirley-n-weber-ph-d-encourages-californians-to-take-action-in-honor-of-national-voter-registration-day/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "The California Secretary of State’s office reminds voters that active registered voters receive ballots by mail and may return them at official county drop boxes, polling places, vote centers, or county election offices. These statewide procedures apply directly to CA-22 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0rtn6hg",
+        "headline": "Your guide to the November 2026 election in the Bay Area",
+        "sourceName": "NBC Bay Area",
+        "url": "https://www.nbcbayarea.com/news/local/bay-area-voter-guide-2026-election/4126572/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The guide describes California’s October 19 registration deadline, same-day registration through Election Day, polling hours, vote-by-mail return rules, ballot tracking, and identification exceptions. Although focused on the Bay Area, the statewide procedures are applicable to CA-22 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-ca22-auto",
-      "startedAt": "2026-09-16T09:02:13.642Z",
-      "completedAt": "2026-09-16T09:03:45.296Z",
+      "id": "run-2026-09-23-ca22-auto",
+      "startedAt": "2026-09-23T09:01:06.686Z",
+      "completedAt": "2026-09-23T09:04:21.463Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
+      "sourcesChecked": 15,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for CA-22. Sources checked: 12. LLM verifications: 13. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for CA-22. Sources checked: 15. LLM verifications: 10. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:03:45.296Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:04:21.463Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
