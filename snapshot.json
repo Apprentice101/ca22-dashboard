@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:04:21.463Z",
-  "exportedAt": "2026-09-23T09:35:47.713Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:11:41.245Z",
+  "exportedAt": "2026-09-30T10:35:34.777Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1550,20 +1550,90 @@
         "relevanceSummary": "The guide describes California’s October 19 registration deadline, same-day registration through Election Day, polling hours, vote-by-mail return rules, ballot tracking, and identification exceptions. Although focused on the Bay Area, the statewide procedures are applicable to CA-22 voters.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0a6q555",
+        "headline": "LA County will start mailing ballots this week for November election",
+        "sourceName": "LAist",
+        "url": "https://laist.com/news/politics/los-angeles-county-vote-by-mail-ballots-distribution-general-election-2026",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The article explains that California counties must begin mailing ballots by October 5 and describes ballot return by mail, official drop boxes, and Vote Center availability. These statewide timing rules and county logistics are relevant context for CA-22 voters, though the specific Vote Center details concern Los Angeles County.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-00qv56q",
+        "headline": "Mail-in ballots",
+        "sourceName": "LAist",
+        "url": "https://laist.com/brief/news/politics/los-angeles-county-vote-by-mail-ballots-distribution-general-election-2026",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Los Angeles County officials say voters can return ballots by mail without postage or use official drop boxes, and Vote Centers will begin opening October 24. Although CA-22 is not in Los Angeles County, the coverage provides relevant California county-level information about ballot-return and in-person voting logistics.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0t0zau4",
+        "headline": "California election security includes paper ballots and multiple safeguards",
+        "sourceName": "KRCR News Channel 7",
+        "url": "https://krcrtv.com/news/local/california-election-security-includes-paper-ballots-and-multiple-safeguards",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article explains that California voters use paper ballots or voting systems producing voter-verifiable paper records, counties conduct post-election audits, and mail ballots must be signed before counting. These statewide security and ballot-validation procedures apply to CA-22 voters.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0eucqjb",
+        "headline": "California mail-in ballots will arrive soon. Here's what to expect",
+        "sourceName": "The Courier California",
+        "url": "https://couriercalifornia.com/local/local-news/california-mail-in-ballots/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "California county election officials must begin mailing vote-by-mail ballots to registered voters by October 5. The article also explains upcoming voter-information-guide timing and discusses Proposition 39's proposed in-person and mail-ballot identification requirements, which would apply to CA-22 voters statewide.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0sdkg4p",
+        "headline": "What to know about Proposition 39, California's voter ID measure",
+        "sourceName": "ABC7 News",
+        "url": "https://abc7news.com/post/what-know-proposition-39-californias-voter-id-measure/19872464/",
+        "publishedAt": "2026-09-26",
+        "relevanceSummary": "The statewide Proposition 39 measure would require in-person voters to present government-issued identification and mail voters to write the last four digits of a government-issued ID or Social Security number on the ballot envelope. If enacted, the requirements would apply to voters in CA-22.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ql6ewd",
+        "headline": "California voter ID ballot measure could be rare GOP statewide win",
+        "sourceName": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com/premium/4739488/california-voter-id-ballot-measure-could-be-rare-gop-statewide-win-necessary-thwart-fraud-dems-warn-disenfranchisement/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The article describes Proposition 39's proposed statewide identification rules: government-issued ID for in-person voting and the last four digits of a designated government-issued identification number on mail-ballot envelopes. The measure would directly affect CA-22 voters if approved.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-02p5eir",
+        "headline": "California gears up for attacks on elections ahead of midterms",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/state/california/2026/09/24/california-new-voting-laws-midterm-elections-2026/91893524007/",
+        "publishedAt": "2026-09-24",
+        "relevanceSummary": "The article reports California changes requiring ballot drop-off locations to open at least 30 days before elections, rather than 28, and making interference with delivery of a vote-by-mail ballot a misdemeanor. These statewide administration rules apply to CA-22 voters.",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-ca22-auto",
-      "startedAt": "2026-09-23T09:01:06.686Z",
-      "completedAt": "2026-09-23T09:04:21.463Z",
+      "id": "run-2026-09-30-ca22-auto",
+      "startedAt": "2026-09-30T10:10:22.358Z",
+      "completedAt": "2026-09-30T10:11:41.245Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 8,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for CA-22. Sources checked: 15. LLM verifications: 10. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for CA-22. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:04:21.463Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:11:41.245Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
