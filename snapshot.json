@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:11:41.245Z",
-  "exportedAt": "2026-09-30T10:35:34.777Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T10:47:11.076Z",
+  "exportedAt": "2026-10-07T11:11:01.717Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1620,20 +1620,100 @@
         "relevanceSummary": "The article reports California changes requiring ballot drop-off locations to open at least 30 days before elections, rather than 28, and making interference with delivery of a vote-by-mail ballot a misdemeanor. These statewide administration rules apply to CA-22 voters.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0dw9z1v",
+        "headline": "California reminds voters to check their mailboxes and return their ballot ASAP",
+        "sourceName": "Office of Governor of California",
+        "url": "https://www.gov.ca.gov/2026/10/06/california-reminds-voters-to-check-their-mailboxes-and-return-their-ballot-asap/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "California officials advise voters to return ballots promptly because ballots deposited in a mailbox or post office on Election Day may receive a late postmark and not be counted. Voters can instead use an official drop box or vote center; eligible unregistered voters have until October 19 to register.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0xou0sh",
+        "headline": "Election 2026 Voter Guide: What's on the California ballot and key dates",
+        "sourceName": "KTVU",
+        "url": "https://www.ktvu.com/election/election-2026-california-voter-guide",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The guide lists California's October 5 ballot-mailing date, October 19 registration deadline, same-day registration option, and available return methods. It also states that mailed ballots must be postmarked by Election Day and received by November 10.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0i6xb6f",
+        "headline": "It's officially the 2026 election: California voters start receiving their ballots in the mail",
+        "sourceName": "Orange County Register",
+        "url": "https://www.ocregister.com/2026/10/05/its-officially-the-2026-election-california-voters-start-receiving-their-ballots-in-the-mail/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "County registrars began sending ballots to California voters by October 5. The article directs voters to the state registration-status tool and explains that ballots postmarked by November 3 can be counted if received within the following week.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-01x6670",
+        "headline": "Election 2026: Do I need to bring ID? Can I wear a shirt to support a candidate? Some helpful tips to know when voting this year",
+        "sourceName": "Orange County Register",
+        "url": "https://www.ocregister.com/2026/10/05/election-2026-do-i-need-to-bring-id-can-i-wear-a-shirt-to-support-a-candidate-some-helpful-tips-to-know-when-voting-this-year/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "California generally does not require identification at the polls, but some first-time general-election voters who registered by mail or online without providing a California ID or Social Security number may need to show identification. The article also explains the deadline for postmarked mail ballots to be received.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ei05k1",
+        "headline": "California election 2026: When Bay Area ballots arrive and voting deadlines",
+        "sourceName": "East Bay Times",
+        "url": "https://www.eastbaytimes.com/2026/10/05/california-election-2026-bay-area-ballots-voting-deadlines/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The article explains California mail-ballot procedures, including that ballots must be signed and received by November 10 if postmarked by Election Day. It also covers the October 19 registration deadline and conditional registration at a county office or vote center.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0l0v8x0",
+        "headline": "Want to vote by mail? Yes, you can still do that in California",
+        "sourceName": "The Press Democrat",
+        "url": "https://www.pressdemocrat.com/2026/10/02/vote-by-mail-california/",
+        "publishedAt": "2026-10-02",
+        "relevanceSummary": "California voters may return ballots by mail, official drop box, or in-person vote center. The article reports that ballots must be postmarked by November 3 and recommends mailing them by October 27, with an employee postmark requested for ballots mailed close to Election Day.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-06dyo4c",
+        "headline": "How to vote in California's November 2026 general election",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-how-to-vote-november-general-voter-guide",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The statewide guide explains accessible ballot-marking options, signing and returning vote-by-mail materials, ballot drop-off locations, and how to locate a polling place. Ballots were scheduled to be mailed by October 5.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0vgss89",
+        "headline": "Your guide to Proposition 39: Stricter voter ID requirements",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-proposition-39-voting-id-requirements-voter-guide",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "This statewide California ballot measure would require government-issued identification for in-person voting and the last four digits of the identification number used at registration on mail ballots. The article says ballots lacking a matching ID number could be rejected if the proposition takes effect.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-ca22-auto",
-      "startedAt": "2026-09-30T10:10:22.358Z",
-      "completedAt": "2026-09-30T10:11:41.245Z",
+      "id": "run-2026-10-07-ca22-auto",
+      "startedAt": "2026-10-07T10:46:03.097Z",
+      "completedAt": "2026-10-07T10:47:11.076Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
-      "updatesCreated": 7,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for CA-22. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for CA-22. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:11:41.245Z",
+    "NEXT_REFRESH_AT": "2026-10-14T10:47:11.076Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
