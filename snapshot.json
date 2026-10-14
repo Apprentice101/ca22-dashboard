@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T10:47:11.076Z",
-  "exportedAt": "2026-10-07T11:11:01.717Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:12:35.897Z",
+  "exportedAt": "2026-10-14T09:30:35.893Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1700,20 +1700,90 @@
         "relevanceSummary": "This statewide California ballot measure would require government-issued identification for in-person voting and the last four digits of the identification number used at registration on mail ballots. The article says ballots lacking a matching ID number could be rejected if the proposition takes effect.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-05o527p",
+        "headline": "How to register and ways to vote",
+        "sourceName": "City of Hayward",
+        "url": "https://www.hayward-ca.gov/discover/news/oct26/how-register-and-ways-vote",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The county-level voter-information notice explains California's October 19 registration deadline, same-day registration at designated vote centers, prepaid ballot-return envelopes, and the November 3 postmark and November 10 receipt deadlines. It is an applicable county example of statewide procedures, though Hayward is outside CA-22.[4]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-063rj2p",
+        "headline": "What California election officials want voters to know before Election Day",
+        "sourceName": "The Desert Sun",
+        "url": "https://www.desertsun.com/story/news/politics/elections/2026/10/13/what-california-voters-should-know-before-election-day-officials-say/92239129007/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "State election officials explain that California voters can check registration, register online through October 19, or use conditional same-day registration afterward. Voters can return ballots by mail, secure drop box, authorized drop-off location, or county elections office, with no postage required for mailed ballots.[3]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-05zx1bo",
+        "headline": "Attorney General Bonta Holds Press Conference in Los Angeles on Security of Mail Voting, Key Upcoming Deadlines, and Publication on Voting Access for People with Disabilities",
+        "sourceName": "California Attorney General's Office",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-holds-press-conference-los-angeles-security-mail-voting",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "California voters, including those in CA-22, have until October 19 to register online; voters who miss the deadline can use same-day conditional registration. Mail ballots must be postmarked by Election Day and received by the county elections office within seven days after Election Day.[1]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0vjy0vp",
+        "headline": "First-time voter? Here's what you need to know.",
+        "sourceName": "University of California",
+        "url": "https://www.universityofcalifornia.edu/news/2026-midterms-voting-faq",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The statewide voter FAQ covers California's October 19 registration deadline, same-day registration at official voting locations, and the requirement that mailed ballots be postmarked by Election Day. These procedures apply directly to eligible CA-22 voters.[2]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-02ya3ug",
+        "headline": "Ballot mistakes",
+        "sourceName": "LAist",
+        "url": "https://laist.com/brief/news/politics/what-to-do-if-you-make-a-mistake-on-your-ballot",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "California voters who miss the October 19 registration deadline can register and vote conditionally in person through Election Day. The guide also explains that ballot drop boxes are available and that voters may vote in person before or on Election Day.[8]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0nxf3mp",
+        "headline": "How to register to vote?",
+        "sourceName": "LAist",
+        "url": "https://laist.com/news/politics/voter-guides/2026-voter-game-plan-california-general-election-how-to-register-to-vote",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The guide details California registration checks, the October 19 deadline, and conditional registration through Election Day. It also provides Los Angeles County voting-location timing, which is relevant to CA-22 voters residing in the district's Los Angeles County portions.[7]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ule6z0",
+        "headline": "How to vote by mail in California's Nov. 3 general election",
+        "sourceName": "LAist",
+        "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-how-do-i-vote-by-mail-in-ballot",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The statewide guide says county officials mail ballots to active registered voters and advises CA-22 voters to verify registration and mailing information by October 19. It also explains ballot-return options, including returning a ballot to any California vote center or polling place by 8 p.m. on Election Day.[6]",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-ca22-auto",
-      "startedAt": "2026-10-07T10:46:03.097Z",
-      "completedAt": "2026-10-07T10:47:11.076Z",
+      "id": "run-2026-10-14-ca22-auto",
+      "startedAt": "2026-10-14T09:11:44.580Z",
+      "completedAt": "2026-10-14T09:12:35.897Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 8,
+      "sourcesChecked": 13,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for CA-22. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for CA-22. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T10:47:11.076Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:12:35.897Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
