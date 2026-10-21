@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:12:35.897Z",
-  "exportedAt": "2026-10-14T09:30:35.893Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:03:25.555Z",
+  "exportedAt": "2026-10-21T09:20:30.655Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -58,7 +58,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-ca-sos-results": {
@@ -143,7 +143,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-ballotpedia-ca22": {
@@ -1770,20 +1770,100 @@
         "relevanceSummary": "The statewide guide says county officials mail ballots to active registered voters and advises CA-22 voters to verify registration and mailing information by October 19. It also explains ballot-return options, including returning a ballot to any California vote center or polling place by 8 p.m. on Election Day.[6]",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ndg5c4",
+        "headline": "San Diego County Voter Guide 2026: What's On The Ballot, Voting & More",
+        "sourceName": "Patch",
+        "url": "https://patch.com/california/san-diego/san-diego-county-voter-guide-2026-whats-ballot-voting-more",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The county guide details California mail-ballot and drop-box deadlines and describes Proposition 39, which would require government-issued identification at polls and identifying-number information on mail ballots. The county is outside CA-22, so the district impact is indirect.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ivxl8k",
+        "headline": "CA general election 2026: How late is too late to vote?",
+        "sourceName": "The Sacramento Bee",
+        "url": "https://www.sacbee.com/news/politics-government/election/voter-guide/article317658082.html",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The statewide voter guide says California counties mail ballots to registered voters and explains that mailed ballots must be postmarked by Election Day and received within seven days afterward.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0wbxdfa",
+        "headline": "California online, mail voter registration deadline is Oct. 19",
+        "sourceName": "KRCR",
+        "url": "https://krcrtv.com/news/local/california-online-mail-voter-registration-deadline-is-today-but-options-remain",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The statewide deadline for online or mail registration is Oct. 19. California voters who miss it can use same-day conditional registration and vote provisionally at a polling location on Election Day.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0eobfw3",
+        "headline": "Cómo votar: Su guía para emitir el voto en las elecciones generales de 2026 en el condado de San Diego",
+        "sourceName": "The San Diego Union-Tribune",
+        "url": "https://www.sandiegouniontribune.com/2026/10/18/como-votar-su-guia-para-emitir-el-voto-en-las-elecciones-generales-de-2026-en-el-condado-de-san-diego/",
+        "publishedAt": "2026-10-18",
+        "relevanceSummary": "The Spanish-language county guide explains how California voters can return mail ballots by mail, drop box, vote center, or election office and provides early-voting and Election Day hours. The county is outside CA-22, so the district impact is indirect.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0gb79e8",
+        "headline": "Are you registered to vote? The deadline for California’s midterm elections is near",
+        "sourceName": "Orange County Register",
+        "url": "https://www.ocregister.com/2026/10/18/are-you-registered-to-vote-the-deadline-for-californias-midterm-elections-is-near/",
+        "publishedAt": "2026-10-18",
+        "relevanceSummary": "California’s Oct. 19 registration deadline applies to CA-22 voters. The article explains conditional registration for voters who miss the deadline and provides mail-ballot postmark and receipt guidance.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0wlqsnz",
+        "headline": "As the General Election approaches, here's what you need to know",
+        "sourceName": "ChicoSol",
+        "url": "https://chicosol.org/2026/10/17/as-the-general-election-approaches-heres-what-you-need-to-know/",
+        "publishedAt": "2026-10-17",
+        "relevanceSummary": "The California election explainer highlights the Oct. 19 registration deadline and says unregistered voters can still cast a provisional ballot in person on Election Day through the state’s conditional-registration process.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0cvduoj",
+        "headline": "U.S. sues California in fight over checking citizenship of mail voters",
+        "sourceName": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/15/california-mail-ballots-voting-lawsuit.html",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "The federal lawsuit challenges California’s handling of citizenship checks for mail voters and asks a court to require ballots identified as potentially cast by noncitizens to be set aside pending verification, making it a statewide litigation development relevant to CA-22 voters.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0yjgsbr",
+        "headline": "Get ready to vote on Nov. 3",
+        "sourceName": "City of Lakewood",
+        "url": "https://www.lakewoodca.gov/News/General-city-info-news-stories/Voting-options-for-the-Nov.-3-election",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "The California city guidance describes statewide options relevant to CA-22 voters, including conditional registration after the deadline and the requirement that mailed ballots be postmarked by Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-ca22-auto",
-      "startedAt": "2026-10-14T09:11:44.580Z",
-      "completedAt": "2026-10-14T09:12:35.897Z",
+      "id": "run-2026-10-21-ca22-auto",
+      "startedAt": "2026-10-21T09:02:33.098Z",
+      "completedAt": "2026-10-21T09:03:25.555Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
-      "updatesCreated": 7,
+      "sourcesChecked": 14,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for CA-22. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for CA-22. Sources checked: 14. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:12:35.897Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:03:25.555Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
