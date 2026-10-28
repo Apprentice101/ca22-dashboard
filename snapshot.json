@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:03:25.555Z",
-  "exportedAt": "2026-10-21T09:20:30.655Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:14:41.612Z",
+  "exportedAt": "2026-10-28T10:22:20.357Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -46,7 +46,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-ca-sos-register": {
@@ -1850,20 +1850,100 @@
         "relevanceSummary": "The California city guidance describes statewide options relevant to CA-22 voters, including conditional registration after the deadline and the requirement that mailed ballots be postmarked by Election Day.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-06vxjpu",
+        "headline": "Why California’s election results take longer than other states",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/californias-election-results-longer-states/story?id=137301737",
+        "publishedAt": "2026-10-28",
+        "relevanceSummary": "The article explains that California must count mail ballots postmarked by Election Day and received within seven days, along with provisional ballots, and that counties validate envelope signatures during processing. These statewide procedures apply to CA-22 ballots.[9]",
+        "tag": "canvass",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0y83k9e",
+        "headline": "Judge skeptical of Justice Dept lawsuit over alleged noncitizens on voting rolls",
+        "sourceName": "Reuters",
+        "url": "https://www.newsobserver.com/news/nation-world/national/article317801026.html",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "A federal judge questioned a Justice Department request to prevent California from counting mail ballots from more than 20,000 voters alleged to be noncitizens. The case could affect ballot counting and voter confidence statewide, including in CA-22.[4]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-04gj00n",
+        "headline": "Has my 2026 ballot been counted? How to check — and what to do if there’s an issue",
+        "sourceName": "San Bernardino Sun",
+        "url": "https://www.sbsun.com/2026/10/27/has-my-2026-ballot-been-counted-how-to-check-and-what-to-do-if-theres-an-issue/",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "California voters can use the Secretary of State’s ballot-tracking service to see whether a mail ballot was received, counted, or flagged for an issue. The article says ballots must be postmarked by November 3 and received within seven days, and advises voters to use an official drop box or obtain a hand postmark when voting late.[6]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0mxujhb",
+        "headline": "Santa Barbara County Elections Office Reminds Voters of Ballot Return Options",
+        "sourceName": "City of Santa Barbara",
+        "url": "https://santabarbaraca.gov/news/santa-barbara-county-elections-office-reminds-voters-ballot-return-options-0",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "California voters, including those in CA-22, were mailed official vote-by-mail ballots. The Elections Office says ballots must be postmarked by November 3 and recommends mailing them at least seven days before Election Day.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-08nar7q",
+        "headline": "2026 California election voter guide: Where to vote, early voting and more",
+        "sourceName": "NBC Los Angeles",
+        "url": "https://www.nbclosangeles.com/elections/2026-california-election-voter-guide-early-voting-governor-la-mayor/3960688/",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "The statewide voter guide explains California mail-ballot return options and the seven-day receipt rule for ballots postmarked by Election Day. It also covers registration identification information and a proposed voter-ID requirement, making it directly relevant to CA-22 voters.[5]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ngl7gq",
+        "headline": "California election officials rattled by DOJ demand to sequester ballots",
+        "sourceName": "Associated Press",
+        "url": "https://www.wftv.com/news/politics/california-election/MCKG2P5JLAZE7DN7XLXES5RQUY/",
+        "publishedAt": "2026-10-24",
+        "relevanceSummary": "The Justice Department asked California county registrars to sequester ballots it believes were cast by noncitizens while voting was underway. County election officials said they had already begun processing ballots, creating a statewide administration and litigation issue relevant to CA-22 voters.[10]",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0m2to2r",
+        "headline": "2026 Election: LA County voters can now cast their ballots in person",
+        "sourceName": "Los Angeles Daily News",
+        "url": "https://www.dailynews.com/2026/10/24/2026-election-la-county-voters-can-now-cast-their-ballots-in-person/",
+        "publishedAt": "2026-10-24",
+        "relevanceSummary": "Los Angeles County vote centers provide in-person voting, replacement ballots, language assistance, registration, and provisional voting. The article also explains conditional voter registration and California’s mail-ballot deadlines, procedures that directly affect CA-22 voters in Los Angeles County.[7]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ca22-0ngt85s",
+        "headline": "California voters urged to avoid last-minute mail-in ballots amid pickup concerns",
+        "sourceName": "CBS News Bay Area",
+        "url": "https://www.cbsnews.com/sanfrancisco/news/california-voters-mail-in-ballots-pickup-concerns/",
+        "publishedAt": "2026-10-22",
+        "relevanceSummary": "Election experts advise California voters to mail ballots at least a week early because Election Day deposits may receive a late postmark. Official drop boxes or delivery to a county elections office are recommended alternatives.[8]",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-ca22-auto",
-      "startedAt": "2026-10-21T09:02:33.098Z",
-      "completedAt": "2026-10-21T09:03:25.555Z",
+      "id": "run-2026-10-28-ca22-auto",
+      "startedAt": "2026-10-28T10:13:52.368Z",
+      "completedAt": "2026-10-28T10:14:41.612Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 13,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for CA-22. Sources checked: 14. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-28 for CA-22. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:03:25.555Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:14:41.612Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
