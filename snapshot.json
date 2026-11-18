@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-11",
-  "updatedAt": "2026-11-11T11:36:56.613Z",
-  "exportedAt": "2026-11-11T11:41:47.210Z",
+  "dataAsOf": "2026-11-18",
+  "updatedAt": "2026-11-18T12:30:52.668Z",
+  "exportedAt": "2026-11-18T12:39:23.065Z",
   "districtCode": "CA-22",
   "data": {
     "DISTRICT": {
@@ -155,7 +155,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-11-11",
+        "lastVerified": "2026-11-18",
         "confidence": "high"
       },
       "src-calmatters": {
@@ -1933,17 +1933,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-11-ca22-auto",
-      "startedAt": "2026-11-11T11:36:51.229Z",
-      "completedAt": "2026-11-11T11:36:56.613Z",
+      "id": "run-2026-11-18-ca22-auto",
+      "startedAt": "2026-11-18T12:30:45.121Z",
+      "completedAt": "2026-11-18T12:30:52.668Z",
       "triggerType": "scheduled",
       "sourcesChecked": 28,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-11 for CA-22. Sources checked: 28. LLM verifications: 29. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-18 for CA-22. Sources checked: 28. LLM verifications: 29. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-18T11:36:56.613Z",
+    "NEXT_REFRESH_AT": "2026-11-25T12:30:52.668Z",
     "WEEKLY_REPORT": {
       "id": "wr-ca22-2026-w26",
       "periodStart": "2026-06-22",
